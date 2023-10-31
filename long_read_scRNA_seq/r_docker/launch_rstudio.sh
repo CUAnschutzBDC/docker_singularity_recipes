@@ -11,13 +11,13 @@ module load singularity/3.9.2
 mkdir -p logs
 
 # path to directory on HPC for persistant storage of R packages
-USER_R_LIB=${HOME}/R/davidson/4.2
+USER_R_LIB=${HOME}/R/maria/4.2
 
 # What local port to use
 LOCAL_PORT=8787
 
 # path to sif file on HPC
-SINGULARITY_IMAGE="davidson_honeymoon_v1.sif"
+SINGULARITY_IMAGE="r_image.sif"
 
 # add options for singularity exec
 # e.g. "--bind /path/to/some/other/user/directory"
@@ -65,7 +65,7 @@ export SINGULARITYENV_PASSWORD=$(openssl rand -base64 15)
 readonly PORT=$(python -c 'import socket; s=socket.socket(); s.bind(("", 0)); print(s.getsockname()[1]); s.close()')
 cat 1>&2 <<END
 1. SSH tunnel from your workstation using the following command:
-   ssh -N -L $LOCAL_PORT:${HOSTNAME}:${PORT} ${SINGULARITYENV_USER}@LOGIN-HOST
+   ssh -N -L $LOCAL_PORT:${HOSTNAME}:${PORT} ${SINGULARITYENV_USER}@amc-bodhi
    and point your web browser to http://localhost:$LOCAL_PORT
 2. log in to RStudio Server using the following credentials:
    user: ${SINGULARITYENV_USER}
@@ -76,7 +76,8 @@ When done using RStudio Server, terminate the job by:
       bkill ${LSB_JOBID}
 END
 
-singularity exec $SINGULARITY_EXEC_OPTS --cleanenv $SINGULARITY_IMAGE \
+singularity exec $SINGULARITY_EXEC_OPTS --bind /beevol/home/nicholas \
+     --cleanenv $SINGULARITY_IMAGE \
     rserver --www-port ${PORT} \
             --server-user ${USER} \
             --auth-none=0 \
@@ -84,4 +85,5 @@ singularity exec $SINGULARITY_EXEC_OPTS --cleanenv $SINGULARITY_IMAGE \
             --auth-stay-signed-in-days=30 \
             --auth-timeout-minutes=0 \
             --rsession-path=/etc/rstudio/rsession.sh
+            
 printf 'rserver exited' 1>&2
