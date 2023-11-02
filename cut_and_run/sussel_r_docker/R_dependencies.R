@@ -11,3 +11,5 @@ library(LaCroixColoR) # johannesbjork/LaCroixColoR
 library(rmarkdown)
 library(MetBrewer) # BlakeRMills/MetBrewer
 library(inauguration) # ciannabp/inauguration
+library(corrplot)
+library(cowplot)
