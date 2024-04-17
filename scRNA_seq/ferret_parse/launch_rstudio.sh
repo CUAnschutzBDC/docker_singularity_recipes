@@ -11,13 +11,13 @@ module load singularity/3.9.2
 mkdir -p logs
 
 # path to directory on HPC for persistant storage of R packages
-USER_R_LIB=${HOME}/R/catherine/4.2
+USER_R_LIB=${HOME}/R/ferret_dev/4.2
 
 # What local port to use
 LOCAL_PORT=8787
 
 # path to sif file on HPC
-SINGULARITY_IMAGE="catherine_bcells2.sif"
+SINGULARITY_IMAGE="catherine_bcells.sif"
 
 # add options for singularity exec
 # e.g. "--bind /path/to/some/other/user/directory"

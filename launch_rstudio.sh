@@ -1,23 +1,26 @@
-#BSUB -n 12
-#BSUB -J rstudio
-#BSUB -e logs/err.txt
-#BSUB -o logs/out.txt
-#BSUB -R "rusage[mem=128] span[hosts=1]"
-#BSUB -W 23:59
-#BSUB -q rna
+#!/bin/bash
+#SBATCH --job-name=rstudio
+#SBATCH --ntasks=12
+#SBATCH --error=logs/err.txt
+#SBATCH --output=logs/out.txt
+#SBATCH --mem=60GB
+#SBATCH --nodes=1
+#SBATCH --time=09:00
+#SBATCH --partition=amilan
 
-module load singularity/3.9.2
+
+module load singularity/3.7.4
 
 mkdir -p logs
 
 # path to directory on HPC for persistant storage of R packages
-USER_R_LIB=${HOME}/R/catherine/4.2
+USER_R_LIB=/projects/${USER}/R/{project_name}
 
 # What local port to use
 LOCAL_PORT=8787
 
 # path to sif file on HPC
-SINGULARITY_IMAGE="catherine_bcells2.sif"
+SINGULARITY_IMAGE="single_cell.sif"
 
 # add options for singularity exec
 # e.g. "--bind /path/to/some/other/user/directory"

@@ -2,3 +2,5 @@
 !.gitignore
 *.jar
 *.tar
+*.sif
+*.gz

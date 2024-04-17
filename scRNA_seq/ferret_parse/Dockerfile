@@ -19,11 +19,10 @@ COPY environment.yaml .
 RUN /opt/conda/bin/conda config --add channels defaults && \
     /opt/conda/bin/conda config --add channels bioconda && \
     /opt/conda/bin/conda config --add channels conda-forge && \
-    /opt/conda/bin/conda config --add channels agbiome && \
-    /opt/conda/bin/conda install -n base conda-libmamba-solver && \
-    conda config --set solver libmamba && \
-    conda env update -n base -f environment.yaml && \
+    /opt/conda/bin/conda install -c conda-forge mamba && \
+    mamba env update -n base -f environment.yaml && \
     conda clean -afy
+
 
 # Install R packages with renv
 RUN R -e "install.packages('remotes', repos = c(CRAN = 'https://cloud.r-project.org'))"
@@ -31,6 +30,6 @@ RUN R -e "remotes::install_github('rstudio/renv@${RENV_VERSION}')"
 
 
 WORKDIR /home/rstudio
-COPY renv.lock renv.lock
 COPY R_dependencies.R R_dependencies.R
+COPY renv.lock renv.lock
 RUN R -e "renv::restore()"
