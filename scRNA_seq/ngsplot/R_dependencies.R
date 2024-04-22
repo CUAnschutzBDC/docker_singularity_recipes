@@ -1,0 +1,6 @@
+library(doMC)
+library(caTools)
+library(utils)
+library(BSgenome)
+library(Rsamtools)
+library(ShortRead)
