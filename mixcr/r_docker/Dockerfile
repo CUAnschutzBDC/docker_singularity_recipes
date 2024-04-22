@@ -32,5 +32,4 @@ RUN R -e "remotes::install_github('rstudio/renv@${RENV_VERSION}')"
 WORKDIR /home/rstudio
 COPY R_dependencies.R R_dependencies.R
 COPY renv.lock renv.lock
-COPY dRopt_0.0.0.9000.tar.gz dRopt_0.0.0.9000.tar.gz
 RUN R -e "renv::restore()"
