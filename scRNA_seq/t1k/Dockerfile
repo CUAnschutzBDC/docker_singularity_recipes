@@ -26,6 +26,12 @@ RUN /opt/conda/bin/conda config --add channels defaults && \
     mamba env update -n base -f environment.yaml && \
     conda clean -afy
 
+# Install pandas and packages for reading excel files
+RUN pip install pandas
+RUN pip install xlrd
+RUN pip install openpyxl
+
+# Install T1K
 COPY T1K T1K
 
 WORKDIR T1K
