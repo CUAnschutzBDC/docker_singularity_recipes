@@ -13,7 +13,9 @@ RUN wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86
     /opt/conda/bin/conda clean --all -f -y && \
     ln -s /opt/conda/etc/profile.d/conda.sh /etc/profile.d/conda.sh && \
     echo ". /opt/conda/etc/profile.d/conda.sh" >> ~/.bashrc && \
-    apt-get update
+    /opt/conda/bin/conda install -n base python=3.10 && \
+    /opt/conda/bin/conda clean -afy
+
 
 COPY environment.yaml .
 RUN /opt/conda/bin/conda config --add channels defaults && \
