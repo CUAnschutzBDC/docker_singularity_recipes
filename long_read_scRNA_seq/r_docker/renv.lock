@@ -357,7 +357,7 @@
       "RemoteRef": "master",
       "RemoteSha": "10a7c3bbe5f894c217b53e087c6bfda86aefdc6c",
       "Remotes": "github::TobiTekath/sparseDRIMSeq, bioc::BiocParallel,\n    bioc::GenomicRanges, bioc::GenomeInfoDb, bioc::Gviz, bioc::rtracklayer,\n    bioc::stageR, bioc::tximport, github::rstudio/webshot2, bioc::DESeq2,\n    bioc::glmGamPoi, bioc::apeglm, bioc::GenomicFeatures",
-      "Hash": "2eb8d95a9fd0e90799a6477eff2a467b",
+      "Hash": "73a48b1dcb435cd3dcc969d80295ce5d",
       "Requirements": [
         "BiocParallel",
         "DESeq2",
@@ -443,6 +443,38 @@
         "KernSmooth",
         "ROCR",
         "fields"
+      ]
+    },
+    "DropletUtils": {
+      "Package": "DropletUtils",
+      "Version": "1.18.1",
+      "Source": "Bioconductor",
+      "git_url": "https://git.bioconductor.org/packages/DropletUtils",
+      "git_branch": "RELEASE_3_16",
+      "git_last_commit": "ff37775",
+      "git_last_commit_date": "2022-11-22",
+      "Hash": "8224eeb2728f3397de3fc9bc21fa221f",
+      "Requirements": [
+        "BH",
+        "BiocGenerics",
+        "BiocParallel",
+        "DelayedArray",
+        "DelayedMatrixStats",
+        "GenomicRanges",
+        "HDF5Array",
+        "IRanges",
+        "Matrix",
+        "R.utils",
+        "Rcpp",
+        "Rhdf5lib",
+        "S4Vectors",
+        "SingleCellExperiment",
+        "SummarizedExperiment",
+        "beachmat",
+        "dqrng",
+        "edgeR",
+        "rhdf5",
+        "scuttle"
       ]
     },
     "EMDomics": {
@@ -620,6 +652,26 @@
         "latticeExtra",
         "matrixStats",
         "rtracklayer"
+      ]
+    },
+    "HDF5Array": {
+      "Package": "HDF5Array",
+      "Version": "1.26.0",
+      "Source": "Bioconductor",
+      "git_url": "https://git.bioconductor.org/packages/HDF5Array",
+      "git_branch": "RELEASE_3_16",
+      "git_last_commit": "38b7bd6",
+      "git_last_commit_date": "2022-11-01",
+      "Hash": "47551501a292037411c49c38d236ff24",
+      "Requirements": [
+        "BiocGenerics",
+        "DelayedArray",
+        "IRanges",
+        "Matrix",
+        "Rhdf5lib",
+        "S4Vectors",
+        "rhdf5",
+        "rhdf5filters"
       ]
     },
     "Hmisc": {
@@ -805,6 +857,35 @@
       "git_last_commit_date": "2022-11-01",
       "Hash": "f097f63d746eff6c10b80338a930034d",
       "Requirements": []
+    },
+    "R.methodsS3": {
+      "Package": "R.methodsS3",
+      "Version": "1.8.2",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "278c286fd6e9e75d0c2e8f731ea445c8",
+      "Requirements": []
+    },
+    "R.oo": {
+      "Package": "R.oo",
+      "Version": "1.25.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "a0900a114f4f0194cf4aa8cd4a700681",
+      "Requirements": [
+        "R.methodsS3"
+      ]
+    },
+    "R.utils": {
+      "Package": "R.utils",
+      "Version": "2.12.2",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "325f01db13da12c04d8f6e7be36ff514",
+      "Requirements": [
+        "R.methodsS3",
+        "R.oo"
+      ]
     },
     "R6": {
       "Package": "R6",
@@ -3218,7 +3299,7 @@
       "Package": "hms",
       "Version": "1.1.2",
       "Source": "Repository",
-      "Repository": "RSPM",
+      "Repository": "CRAN",
       "Hash": "41100392191e1244b887878b533eea91",
       "Requirements": [
         "ellipsis",
@@ -4454,6 +4535,33 @@
         "png",
         "rappdirs",
         "withr"
+      ]
+    },
+    "rhdf5": {
+      "Package": "rhdf5",
+      "Version": "2.42.1",
+      "Source": "Bioconductor",
+      "git_url": "https://git.bioconductor.org/packages/rhdf5",
+      "git_branch": "RELEASE_3_16",
+      "git_last_commit": "8df5fc7",
+      "git_last_commit_date": "2023-04-07",
+      "Hash": "5c03978672acd1d85ce56f9d12f5fe5b",
+      "Requirements": [
+        "Rhdf5lib",
+        "rhdf5filters"
+      ]
+    },
+    "rhdf5filters": {
+      "Package": "rhdf5filters",
+      "Version": "1.10.1",
+      "Source": "Bioconductor",
+      "git_url": "https://git.bioconductor.org/packages/rhdf5filters",
+      "git_branch": "RELEASE_3_16",
+      "git_last_commit": "ccf950c",
+      "git_last_commit_date": "2023-03-24",
+      "Hash": "63806aa966d50f02b18aba6d0d34e3c8",
+      "Requirements": [
+        "Rhdf5lib"
       ]
     },
     "rjson": {
