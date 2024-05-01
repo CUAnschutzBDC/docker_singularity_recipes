@@ -1,5 +1,7 @@
 # Get base image
-FROM bioconductor/bioconductor_docker:RELEASE_3_16
+# Start with bioconductor. See versions here 
+# https://hub.docker.com/r/bioconductor/bioconductor_docker/tags
+FROM bioconductor/bioconductor_docker:RELEASE_3_18
 
 # environment
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
