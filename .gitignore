@@ -6,3 +6,4 @@
 *.gz
 scRNA_seq/t1k/T1K/hlaidx/*
 scRNA_seq/t1k/T1K/kiridx/*
+mixcr/mixcr/mi.license
