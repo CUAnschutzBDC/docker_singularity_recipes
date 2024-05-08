@@ -18,3 +18,5 @@ RUN /opt/conda/bin/conda config --add channels defaults && \
     /opt/conda/bin/conda install -n base python=3.10 && \
     /opt/conda/bin/conda env update -n base -f environment.yaml && \
     conda clean -afy
+
+RUN /opt/conda/bin/conda install --force-reinstall java-jdk
