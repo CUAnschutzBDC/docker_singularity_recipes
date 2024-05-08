@@ -4,7 +4,7 @@ library(Seurat)
 library(biomaRt)
 library(scAnalysisR) # CUAnschutzBDC/scAnalysisR
 library(clustifyr)
-library(DoubletFinder) # chris-mcginnis-ucsf/DoubletFinder
+library(DoubletFinder) # chris-mcginnis-ucsf/DoubletFinder renv::install("chris-mcginnis-ucsf/DoubletFinder@1b1d4e2")
 library(cowplot)
 library(here)
 library(pheatmap)
@@ -40,3 +40,4 @@ library(markdown)
 library(testthat)
 library(devtools)
 library(roxygen2)
+library(dRopt)

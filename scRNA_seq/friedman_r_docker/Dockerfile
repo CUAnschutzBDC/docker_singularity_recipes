@@ -4,6 +4,7 @@ FROM bioconductor/bioconductor_docker:RELEASE_3_16
 # environment
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 ENV PATH $PATH:/opt/conda/bin
+ENV RENV_VERSION 0.16.0
 
 # get conda installed
 RUN wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh && \
@@ -23,7 +24,13 @@ RUN /opt/conda/bin/conda config --add channels defaults && \
     conda clean -afy
 
 
-# Install R packages
+# Install R packages with renv
+RUN R -e "install.packages('remotes', repos = c(CRAN = 'https://cloud.r-project.org'))"
+RUN R -e "remotes::install_github('rstudio/renv@${RENV_VERSION}')"
+
+
 WORKDIR /home/rstudio
-COPY r-pkgs.R r-pkgs.R
-RUN R -e 'source("r-pkgs.R")'
+COPY R_dependencies.R R_dependencies.R
+COPY renv.lock renv.lock
+COPY dRopt_0.0.0.9000.tar.gz dRopt_0.0.0.9000.tar.gz
+RUN R -e "renv::restore()"

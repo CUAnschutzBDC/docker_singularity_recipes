@@ -17,7 +17,7 @@ USER_R_LIB=${HOME}/R/maria/4.2
 LOCAL_PORT=8787
 
 # path to sif file on HPC
-SINGULARITY_IMAGE="r_image.sif"
+SINGULARITY_IMAGE="sc_long_v1.sif"
 
 # add options for singularity exec
 # e.g. "--bind /path/to/some/other/user/directory"
@@ -76,7 +76,7 @@ When done using RStudio Server, terminate the job by:
       bkill ${LSB_JOBID}
 END
 
-singularity exec $SINGULARITY_EXEC_OPTS --bind /beevol/home/nicholas \
+singularity exec $SINGULARITY_EXEC_OPTS --bind /beevol/home/rbilab \
      --cleanenv $SINGULARITY_IMAGE \
     rserver --www-port ${PORT} \
             --server-user ${USER} \

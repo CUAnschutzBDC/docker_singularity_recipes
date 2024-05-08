@@ -1,0 +1,9 @@
+name: ngsplot
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python >=3.8
+  - pip >=1.4

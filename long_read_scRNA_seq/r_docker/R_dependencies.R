@@ -40,3 +40,4 @@ library(flowStats)
 library(EMDomics)
 library(DTUrtle)
 library(Matrix.utils) #cvarrichio/Matrix.utils
+library(DropletUtils)
