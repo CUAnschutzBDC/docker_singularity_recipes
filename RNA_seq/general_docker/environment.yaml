@@ -6,16 +6,14 @@ channels:
   - defaults
   - agbiome
 dependencies:
-  - python >=3.8
-  - pip >=1.4
-  - snakemake >=6.1.2
-  - drmaa >= 0.7.9
-  - pysam >= 0.16
-  - star >= 2.7.11a
-  - cutadapt >= 4.5
-  - bbtools >= 37.62
-  - fastqc >= 0.11.8
-  - samtools >= 1.16.1
-  - subread >= 2.0.3
-  - bedtools >= 2.30.0
-  - deeptools >= 3.5.1
+  - pip=24.0
+  - pysam=0.22.1
+  - star=2.7.11b
+  - cutadapt=4.8
+  - bbtools=37.62
+  - fastqc=0.12.1
+  - samtools=1.20
+  - subread=2.0.6
+  - bedtools=2.31.1
+  - deeptools=3.5.5
+  - rseqc=5.0.3
