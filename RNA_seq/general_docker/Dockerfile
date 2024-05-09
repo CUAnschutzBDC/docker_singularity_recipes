@@ -7,7 +7,8 @@ ENV PATH $PATH:/opt/conda/bin
 
 RUN  apt-get update \
   && apt-get install -y wget \
-  && rm -rf /var/lib/apt/lists/*
+  && apt-get -y install sudo \
+  && rm -rf /var/lib/apt/lists/* 
 
 COPY environment.yaml .
 RUN /opt/conda/bin/conda config --add channels defaults && \
@@ -20,3 +21,7 @@ RUN /opt/conda/bin/conda config --add channels defaults && \
     conda clean -afy
 
 RUN /opt/conda/bin/conda install --force-reinstall java-jdk
+
+RUN sudo apt update
+RUN sudo apt install -y zip
+RUN sudo apt install -y unzip
