@@ -28,3 +28,16 @@ This repository serves as a resource for building and maintaining Docker and Sin
   * Friedman R docker - Includes a recipe to build the container to run R scripts associated with RNA seq analysis. Includes packages like `Seurat` and `scAnalysisR`. Check the `R_dependencies.R` file for a full list of installed packages. Versions are slightly different than R docker
   * Immcantation - Includes a recipe to build a container with immcantation
   * Dropkick - Includes a recipe to build a continer with dropkick
+
+## R vulenerabilities
+We are aware of the R vulenerabilities and I am working on updating all of these images to use R 4.4 or higher. 
+
+Images recipies that have been updated with R 4.4:
+* RNA_seq/r_docker
+* cut_and_run/r_docker
+* atac_seq/sussel_r_docker
+
+For those using my pre-built images, the following images are R 4.4 or higher:
+* RNA_seq/r_docker/rnaseq_r_v1.tar and RNA_seq/r_docker/rnaseq_r_v1.sif
+* cut_and_run/r_docker/cut_and_run_v1.tar and cut_and_run/r_docker/cut_and_run_v1.tar
+* atac_seq/sussel_r_docker/atac_r.tar and atac_seq/sussel_r_docker/atac_r.sif
