@@ -21,4 +21,4 @@ library(ChIPpeakAnno)
 library(DiffBind)
 library(GenomicRanges)
 library(ChIPseeker)
-library(MoMAColors)
+library(MoMAColors) # BlakeRMills/MoMAColors
