@@ -7,9 +7,9 @@ ENV PATH $PATH:/opt/conda/bin
 ENV RENV_VERSION=1.0.7
 
 # get conda installed
-RUN wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh && \
-    /bin/bash ~/miniconda.sh -b -p /opt/conda && \
-    rm ~/miniconda.sh && \
+RUN wget --quiet "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh" && \
+    bash Miniforge3-$(uname)-$(uname -m).sh -b -p /opt/conda && \
+    rm Miniforge3-$(uname)-$(uname -m).sh && \
     /opt/conda/bin/conda clean --all -f -y && \
     ln -s /opt/conda/etc/profile.d/conda.sh /etc/profile.d/conda.sh && \
     echo ". /opt/conda/etc/profile.d/conda.sh" >> ~/.bashrc && \
@@ -20,11 +20,10 @@ RUN /opt/conda/bin/conda config --add channels defaults && \
     /opt/conda/bin/conda config --add channels bioconda && \
     /opt/conda/bin/conda config --add channels conda-forge && \
     /opt/conda/bin/conda config --add channels agbiome && \
-    /opt/conda/bin/conda install -n base conda-libmamba-solver && \
-    conda config --set solver libmamba && \
+    /opt/conda/bin/conda install -n base python=3.10 && \
     conda env update -n base -f environment.yaml && \
     conda clean -afy
-
+    
 # Install R packages with renv
 #RUN R -e "install.packages('remotes', repos = c(CRAN = 'https://cloud.r-project.org'))"
 RUN R -e "install.packages('renv', version = '${RENV_VERSION}')"

@@ -33,11 +33,13 @@ This repository serves as a resource for building and maintaining Docker and Sin
 We are aware of the R vulenerabilities and I am working on updating all of these images to use R 4.4 or higher. 
 
 Images recipies that have been updated with R 4.4:
-* RNA_seq/r_docker
-* cut_and_run/r_docker
-* atac_seq/sussel_r_docker
+* `RNA_seq/r_docker`
+* `cut_and_run/r_docker`
+* `atac_seq/sussel_r_docker`
+* `mixcr/r_docker`
 
 For those using my pre-built images, the following images are R 4.4 or higher:
-* RNA_seq/r_docker/rnaseq_r_v1.tar and RNA_seq/r_docker/rnaseq_r_v1.sif
-* cut_and_run/r_docker/cut_and_run_v1.tar and cut_and_run/r_docker/cut_and_run_v1.tar
-* atac_seq/sussel_r_docker/atac_r.tar and atac_seq/sussel_r_docker/atac_r.sif
+* `RNA_seq/r_docker/rnaseq_r_v1.tar and RNA_seq/r_docker/rnaseq_r_v1.sif`
+* `cut_and_run/r_docker/cut_and_run_v1.tar and cut_and_run/r_docker/cut_and_run_v1.sif`
+* `atac_seq/sussel_r_docker/atac_r.tar and atac_seq/sussel_r_docker/atac_r.sif`
+* `mixcr/r_docker/mixcr_r_v1.tar and mixcr/r_docker/mixcr_r_v1.tar`
