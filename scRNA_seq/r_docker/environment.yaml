@@ -1,0 +1,9 @@
+name: atac
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - pip=24.0
+  - pysam=0.22.1
