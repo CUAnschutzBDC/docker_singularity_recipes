@@ -1168,6 +1168,29 @@
         "RcppEigen"
       ]
     },
+    "UpSetR": {
+      "Package": "UpSetR",
+      "Version": "1.4.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "f6ef89503aaff474873f8bc1823894e1",
+      "Requirements": [
+        "ggplot2",
+        "gridExtra",
+        "plyr",
+        "scales"
+      ]
+    },
+    "VennDiagram": {
+      "Package": "VennDiagram",
+      "Version": "1.7.3",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "6b628f0aee185fdb5d6ce2b5eb477e52",
+      "Requirements": [
+        "futile.logger"
+      ]
+    },
     "XML": {
       "Package": "XML",
       "Version": "3.99-0.13",
@@ -2515,6 +2538,19 @@
         "vipor"
       ]
     },
+    "ggfittext": {
+      "Package": "ggfittext",
+      "Version": "0.10.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "bac4a2bf2c6943646aef028c26081e25",
+      "Requirements": [
+        "ggplot2",
+        "gridtext",
+        "shades",
+        "stringi"
+      ]
+    },
     "ggforce": {
       "Package": "ggforce",
       "Version": "0.4.1",
@@ -2894,6 +2930,23 @@
       "Repository": "RSPM",
       "Hash": "5b79228594f02385d4df4979284879ae",
       "Requirements": []
+    },
+    "gridtext": {
+      "Package": "gridtext",
+      "Version": "0.1.5",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "05e4f5fffb1eecfeaac9ea0b7f255fef",
+      "Requirements": [
+        "Rcpp",
+        "curl",
+        "jpeg",
+        "markdown",
+        "png",
+        "rlang",
+        "stringr",
+        "xml2"
+      ]
     },
     "gtable": {
       "Package": "gtable",
@@ -4557,6 +4610,14 @@
         "segmented"
       ]
     },
+    "shades": {
+      "Package": "shades",
+      "Version": "1.4.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "3a2cf5eecb2cbca814d01d56bfb51494",
+      "Requirements": []
+    },
     "shape": {
       "Package": "shape",
       "Version": "1.4.6",
@@ -5119,6 +5180,17 @@
         "rlang",
         "tibble",
         "tidytree"
+      ]
+    },
+    "treemapify": {
+      "Package": "treemapify",
+      "Version": "2.5.5",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "9516e4245689cc8084ac7f4e87f2bf5a",
+      "Requirements": [
+        "ggfittext",
+        "ggplot2"
       ]
     },
     "tweenr": {
