@@ -12,9 +12,11 @@ RUN apt-get update && apt-get install -y \
 
 # Create a new directory
 RUN mkdir -p /opt/server_bin
+run mkdir -p /opt/server_env/lib
 
 # Add the new directory to the PATH
 ENV PATH="/opt/server_bin:${PATH}"
+ENV LD_LIBRARY_PATH="/opt/server_env/lib:${LD_LIBRARY_PATH}"
 
 # Set working directory
 WORKDIR /opt
