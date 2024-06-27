@@ -12,7 +12,8 @@ RUN apt-get update && apt-get install -y \
 
 # Create a new directory
 RUN mkdir -p /opt/server_bin
-run mkdir -p /opt/server_env/lib
+RUN mkdir -p /opt/server_env/lib
+RUN mkdir -p /opt/server_env/lib
 
 # Add the new directory to the PATH
 ENV PATH="/opt/server_bin:${PATH}"
