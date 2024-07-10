@@ -639,6 +639,18 @@
       ],
       "Hash": "47551501a292037411c49c38d236ff24"
     },
+    "HGNChelper": {
+      "Package": "HGNChelper",
+      "Version": "0.8.1",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "R",
+        "methods",
+        "utils"
+      ],
+      "Hash": "d756e596f0f9ddd90b82921f5964b71b"
+    },
     "IRanges": {
       "Package": "IRanges",
       "Version": "2.32.0",
@@ -1440,6 +1452,25 @@
         "utils"
       ],
       "Hash": "32fe55af336f4296abab0cf971e78f0b"
+    },
+    "TrajectoryUtils": {
+      "Package": "TrajectoryUtils",
+      "Version": "1.6.0",
+      "Source": "Bioconductor",
+      "git_url": "https://git.bioconductor.org/packages/TrajectoryUtils",
+      "git_branch": "RELEASE_3_16",
+      "git_last_commit": "60747e6",
+      "git_last_commit_date": "2022-11-01",
+      "Requirements": [
+        "Matrix",
+        "S4Vectors",
+        "SingleCellExperiment",
+        "SummarizedExperiment",
+        "igraph",
+        "methods",
+        "stats"
+      ],
+      "Hash": "494f7de8a42ee3fbf181519f89eabeeb"
     },
     "XML": {
       "Package": "XML",
@@ -4448,6 +4479,20 @@
       "Repository": "RSPM",
       "Hash": "95ef9167b75dde9d2ccc3c7528393e7e"
     },
+    "princurve": {
+      "Package": "princurve",
+      "Version": "2.1.6",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "R",
+        "Rcpp",
+        "grDevices",
+        "graphics",
+        "stats"
+      ],
+      "Hash": "1e3d2690c203c82497e5520ba152d094"
+    },
     "processx": {
       "Package": "processx",
       "Version": "3.8.1",
@@ -5094,6 +5139,8 @@
       "Remotes": "immunogenomics/harmony",
       "Remotes": "immunogenomics/harmony",
       "Remotes": "immunogenomics/harmony",
+      "Remotes": "immunogenomics/harmony",
+      "Remotes": "immunogenomics/harmony",
       "Requirements": [
         "MLmetrics",
         "SeuratObject",
@@ -5110,7 +5157,7 @@
         "pbapply",
         "stats"
       ],
-      "Hash": "d794e895d486520b23e6b0a47d7b35fd"
+      "Hash": "3aee6cce009c80561477dbe3ba540608"
     },
     "scales": {
       "Package": "scales",
@@ -5372,6 +5419,30 @@
         "Rcpp"
       ],
       "Hash": "c956d93f6768a9789edbc13072b70c78"
+    },
+    "slingshot": {
+      "Package": "slingshot",
+      "Version": "2.6.0",
+      "Source": "Bioconductor",
+      "git_url": "https://git.bioconductor.org/packages/slingshot",
+      "git_branch": "RELEASE_3_16",
+      "git_last_commit": "c594d05",
+      "git_last_commit_date": "2022-11-01",
+      "Requirements": [
+        "R",
+        "S4Vectors",
+        "SingleCellExperiment",
+        "SummarizedExperiment",
+        "TrajectoryUtils",
+        "grDevices",
+        "graphics",
+        "igraph",
+        "matrixStats",
+        "methods",
+        "princurve",
+        "stats"
+      ],
+      "Hash": "beb6821615730abdbd3f67bddf9cb28a"
     },
     "snow": {
       "Package": "snow",
@@ -5819,6 +5890,40 @@
         "xfun"
       ],
       "Hash": "e4e357f28c2edff493936b6cb30c3d65"
+    },
+    "tradeSeq": {
+      "Package": "tradeSeq",
+      "Version": "1.12.0",
+      "Source": "Bioconductor",
+      "git_url": "https://git.bioconductor.org/packages/tradeSeq",
+      "git_branch": "RELEASE_3_16",
+      "git_last_commit": "5fdc85b",
+      "git_last_commit_date": "2022-11-01",
+      "Requirements": [
+        "Biobase",
+        "BiocParallel",
+        "MASS",
+        "Matrix",
+        "R",
+        "RColorBrewer",
+        "S4Vectors",
+        "SingleCellExperiment",
+        "SummarizedExperiment",
+        "TrajectoryUtils",
+        "edgeR",
+        "ggplot2",
+        "igraph",
+        "magrittr",
+        "matrixStats",
+        "methods",
+        "mgcv",
+        "pbapply",
+        "princurve",
+        "slingshot",
+        "tibble",
+        "viridis"
+      ],
+      "Hash": "d9ff8ae817dfc92d959be7b17c6bc3ec"
     },
     "tweenr": {
       "Package": "tweenr",
