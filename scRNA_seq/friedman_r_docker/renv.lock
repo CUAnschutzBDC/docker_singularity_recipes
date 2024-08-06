@@ -2224,6 +2224,19 @@
       ],
       "Hash": "b4c06e554f33344e044ccd7fdca750a9"
     },
+    "data.tree": {
+      "Package": "data.tree",
+      "Version": "1.0.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "R",
+        "R6",
+        "methods",
+        "stringi"
+      ],
+      "Hash": "c0ddced80c3f074cb39a7a781698f68a"
+    },
     "dbplyr": {
       "Package": "dbplyr",
       "Version": "2.3.2",
@@ -5141,6 +5154,7 @@
       "Remotes": "immunogenomics/harmony",
       "Remotes": "immunogenomics/harmony",
       "Remotes": "immunogenomics/harmony",
+      "Remotes": "immunogenomics/harmony",
       "Requirements": [
         "MLmetrics",
         "SeuratObject",
@@ -5157,7 +5171,7 @@
         "pbapply",
         "stats"
       ],
-      "Hash": "3aee6cce009c80561477dbe3ba540608"
+      "Hash": "707f7f6aa52ce09b17488569fb079add"
     },
     "scales": {
       "Package": "scales",
