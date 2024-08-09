@@ -21,3 +21,4 @@ library(apeglm)
 library(KEGGREST)
 library(org.Mm.eg.db)
 library(MoMAColors) # BlakeRMills/MoMAColors
+library(limma)
