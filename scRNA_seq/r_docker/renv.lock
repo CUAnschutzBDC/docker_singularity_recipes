@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.4.0",
+    "Version": "4.4.1",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -21,7 +21,7 @@
       "RemoteUsername": "yezhengSTAT",
       "RemoteRepo": "ADTnorm",
       "RemoteRef": "main",
-      "RemoteSha": "746c18465e1394dc690a8d3469e4181b25894e72",
+      "RemoteSha": "2dfa6ba885c34f956f95a9c49d1d1a2a8ac845a1",
       "Requirements": [
         "DT",
         "EMDomics",
@@ -41,13 +41,13 @@
         "tidyr",
         "utils"
       ],
-      "Hash": "38a6a318f893f9082e4f37ae404559b5"
+      "Hash": "29b8159cccdc55acc9a99985e6f7ab52"
     },
     "AnnotationDbi": {
       "Package": "AnnotationDbi",
       "Version": "1.66.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "Biobase",
         "BiocGenerics",
@@ -67,14 +67,14 @@
       "Package": "BH",
       "Version": "1.84.0-0",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Hash": "a8235afbcd6316e6e91433ea47661013"
     },
     "Biobase": {
       "Package": "Biobase",
       "Version": "2.64.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "BiocGenerics",
         "R",
@@ -87,7 +87,7 @@
       "Package": "BiocFileCache",
       "Version": "2.12.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "DBI",
         "R",
@@ -107,7 +107,7 @@
       "Package": "BiocGenerics",
       "Version": "0.50.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "graphics",
@@ -131,7 +131,7 @@
       "Package": "BiocNeighbors",
       "Version": "1.22.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "BiocParallel",
         "Matrix",
@@ -147,7 +147,7 @@
       "Package": "BiocParallel",
       "Version": "1.38.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "BH",
         "R",
@@ -166,7 +166,7 @@
       "Package": "BiocSingular",
       "Version": "1.20.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "BiocGenerics",
         "BiocParallel",
@@ -195,9 +195,9 @@
     },
     "Biostrings": {
       "Package": "Biostrings",
-      "Version": "2.72.0",
+      "Version": "2.72.1",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "BiocGenerics",
         "GenomeInfoDb",
@@ -211,13 +211,13 @@
         "stats",
         "utils"
       ],
-      "Hash": "48618c7c7b90b503837824ebcfee6363"
+      "Hash": "886ff0ed958d6f839ed2e0d01f6853b3"
     },
     "CDFt": {
       "Package": "CDFt",
       "Version": "1.2",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "stats"
@@ -228,7 +228,7 @@
       "Package": "Cairo",
       "Version": "1.6-2",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "grDevices",
@@ -240,7 +240,7 @@
       "Package": "ComplexHeatmap",
       "Version": "2.20.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "GetoptLong",
         "GlobalOptions",
@@ -266,20 +266,20 @@
     },
     "DBI": {
       "Package": "DBI",
-      "Version": "1.2.2",
+      "Version": "1.2.3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "methods"
       ],
-      "Hash": "164809cd72e1d5160b4cb3aa57f510fe"
+      "Hash": "065ae649b05f1ff66bb0c793107508f5"
     },
     "DESeq2": {
       "Package": "DESeq2",
       "Version": "1.44.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "Biobase",
         "BiocGenerics",
@@ -303,7 +303,7 @@
       "Package": "DEoptimR",
       "Version": "1.1-3",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "stats"
       ],
@@ -313,7 +313,7 @@
       "Package": "DT",
       "Version": "0.33",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "crosstalk",
         "htmltools",
@@ -330,7 +330,7 @@
       "Package": "DelayedArray",
       "Version": "0.30.1",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "BiocGenerics",
         "IRanges",
@@ -350,7 +350,7 @@
       "Package": "DelayedMatrixStats",
       "Version": "1.26.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "DelayedArray",
         "IRanges",
@@ -394,7 +394,7 @@
       "Package": "DropletUtils",
       "Version": "1.24.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "BH",
         "BiocGenerics",
@@ -426,7 +426,7 @@
       "Package": "EMDomics",
       "Version": "2.34.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "BiocParallel",
         "CDFt",
@@ -440,16 +440,16 @@
     },
     "EnvStats": {
       "Package": "EnvStats",
-      "Version": "2.8.1",
+      "Version": "3.0.0",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "CRAN",
       "Requirements": [
         "MASS",
         "R",
         "ggplot2",
         "nortest"
       ],
-      "Hash": "1b55a740dea99c9d226e75acc2c0a85e"
+      "Hash": "08f0337e9a3b03a9027a423a1ae76ed3"
     },
     "FNN": {
       "Package": "FNN",
@@ -463,9 +463,9 @@
     },
     "GenomeInfoDb": {
       "Package": "GenomeInfoDb",
-      "Version": "1.40.0",
+      "Version": "1.40.1",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "BiocGenerics",
         "GenomeInfoDbData",
@@ -478,13 +478,13 @@
         "stats4",
         "utils"
       ],
-      "Hash": "614124bc9fb80d222cfa0d2e3e76c339"
+      "Hash": "171e9becd9bb948b9e64eb3759208c94"
     },
     "GenomeInfoDbData": {
       "Package": "GenomeInfoDbData",
       "Version": "1.2.12",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/data/annotation",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R"
       ],
@@ -494,7 +494,7 @@
       "Package": "GenomicAlignments",
       "Version": "1.40.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "BiocGenerics",
         "BiocParallel",
@@ -514,9 +514,9 @@
     },
     "GenomicRanges": {
       "Package": "GenomicRanges",
-      "Version": "1.56.0",
+      "Version": "1.56.1",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "BiocGenerics",
         "GenomeInfoDb",
@@ -529,13 +529,13 @@
         "stats4",
         "utils"
       ],
-      "Hash": "0fab423e3f49e207681eb404d9182a1e"
+      "Hash": "a3c822ef3c124828e25e7a9611beeb50"
     },
     "GetoptLong": {
       "Package": "GetoptLong",
       "Version": "1.0.5",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "GlobalOptions",
         "R",
@@ -549,7 +549,7 @@
       "Package": "GlobalOptions",
       "Version": "0.1.2",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "methods",
@@ -559,7 +559,7 @@
     },
     "HDF5Array": {
       "Package": "HDF5Array",
-      "Version": "1.32.0",
+      "Version": "1.32.1",
       "Source": "Repository",
       "Repository": "https://bioconductor.org/packages/3.19/bioc",
       "Requirements": [
@@ -578,13 +578,13 @@
         "tools",
         "utils"
       ],
-      "Hash": "b10ddb24baf506cf7b4bc868ae65b984"
+      "Hash": "420012f82591a2a20156ef65d4aa210a"
     },
     "IDPmisc": {
       "Package": "IDPmisc",
       "Version": "1.1.21",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "grid",
@@ -595,7 +595,7 @@
     },
     "IRanges": {
       "Package": "IRanges",
-      "Version": "2.38.0",
+      "Version": "2.38.1",
       "Source": "Repository",
       "Repository": "https://bioconductor.org/packages/3.19/bioc",
       "Requirements": [
@@ -607,13 +607,13 @@
         "stats4",
         "utils"
       ],
-      "Hash": "836770692f7c8401090519228b93af32"
+      "Hash": "066f3c5d6b022ed62c91ce49e4d8f619"
     },
     "KEGGREST": {
       "Package": "KEGGREST",
-      "Version": "1.44.0",
+      "Version": "1.44.1",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "Biostrings",
         "R",
@@ -621,13 +621,13 @@
         "methods",
         "png"
       ],
-      "Hash": "05ef9fd9aa613310e060ddd93a0c8571"
+      "Hash": "017f19c09477c0473073518db9076ac1"
     },
     "KEGGgraph": {
       "Package": "KEGGgraph",
       "Version": "1.64.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "RCurl",
@@ -641,14 +641,14 @@
     },
     "KernSmooth": {
       "Package": "KernSmooth",
-      "Version": "2.23-22",
+      "Version": "2.23-24",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "stats"
       ],
-      "Hash": "2fecebc3047322fa5930f74fae5de70f"
+      "Hash": "9f33a1ee37bbe8919eb2ec4b9f2473a5"
     },
     "LaCroixColoR": {
       "Package": "LaCroixColoR",
@@ -671,9 +671,9 @@
     },
     "MASS": {
       "Package": "MASS",
-      "Version": "7.3-60.2",
+      "Version": "7.3-61",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "grDevices",
@@ -682,7 +682,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "2f342c46163b0b54d7b64d1f798e2c78"
+      "Hash": "0cafd6f0500e5deba33be22c46bf6055"
     },
     "Matrix": {
       "Package": "Matrix",
@@ -705,7 +705,7 @@
       "Package": "MatrixGenerics",
       "Version": "1.16.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "matrixStats",
         "methods"
@@ -716,7 +716,7 @@
       "Package": "MatrixModels",
       "Version": "0.5-3",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "Matrix",
         "R",
@@ -747,11 +747,30 @@
       ],
       "Hash": "14ebb03d2a213e7872b97eb566d44aa0"
     },
+    "MoMAColors": {
+      "Package": "MoMAColors",
+      "Version": "0.0.0.9000",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "BlakeRMills",
+      "RemoteRepo": "MoMAColors",
+      "RemoteRef": "main",
+      "RemoteSha": "6f5d75decc3f0063b199d5f0127d63c950528b8a",
+      "Requirements": [
+        "cowplot",
+        "ggplot2",
+        "ggstream",
+        "graphics",
+        "stats"
+      ],
+      "Hash": "0b3adc6e7f959d5920bbec1ce3efaa1e"
+    },
     "R.methodsS3": {
       "Package": "R.methodsS3",
       "Version": "1.8.2",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "utils"
@@ -762,7 +781,7 @@
       "Package": "R.oo",
       "Version": "1.26.0",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "R.methodsS3",
@@ -775,7 +794,7 @@
       "Package": "R.utils",
       "Version": "2.12.3",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "R.methodsS3",
@@ -798,16 +817,16 @@
     },
     "RANN": {
       "Package": "RANN",
-      "Version": "2.6.1",
+      "Version": "2.6.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "d128ea05a972d3e67c6f39de52c72bd7"
+      "Hash": "3c15b582f2cb4394b4b2a1ba85a1e987"
     },
     "RBGL": {
       "Package": "RBGL",
       "Version": "1.80.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "BH",
         "graph",
@@ -819,7 +838,7 @@
       "Package": "RColorBrewer",
       "Version": "1.1-3",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R"
       ],
@@ -827,7 +846,7 @@
     },
     "RCurl": {
       "Package": "RCurl",
-      "Version": "1.98-1.14",
+      "Version": "1.98-1.16",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -835,7 +854,7 @@
         "bitops",
         "methods"
       ],
-      "Hash": "47f648d288079d0c696804ad4e55197e"
+      "Hash": "ddbdf53d15b47be4407ede6914f56fbb"
     },
     "RJSONIO": {
       "Package": "RJSONIO",
@@ -866,14 +885,14 @@
       "Package": "RProtoBufLib",
       "Version": "2.16.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Hash": "b61c1ff5d792ea3e2e3b5a2bb0850fb7"
     },
     "RSQLite": {
       "Package": "RSQLite",
-      "Version": "2.3.6",
+      "Version": "2.3.7",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "DBI",
         "R",
@@ -886,11 +905,11 @@
         "plogr",
         "rlang"
       ],
-      "Hash": "ae4a925e0f6bb1b7e5fa96b739c5221a"
+      "Hash": "46b45a4dd7bb0e0f4e3fc22245817240"
     },
     "RSpectra": {
       "Package": "RSpectra",
-      "Version": "0.16-1",
+      "Version": "0.16-2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -899,7 +918,7 @@
         "Rcpp",
         "RcppEigen"
       ],
-      "Hash": "6b5ab997fd5ff6d46a5f1d9f8b76961c"
+      "Hash": "5ffd7a70479497271e57cd0cc2465b3b"
     },
     "Rcpp": {
       "Package": "Rcpp",
@@ -926,7 +945,7 @@
     },
     "RcppArmadillo": {
       "Package": "RcppArmadillo",
-      "Version": "0.12.8.3.0",
+      "Version": "14.0.0-1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -936,11 +955,11 @@
         "stats",
         "utils"
       ],
-      "Hash": "1eb4a0603478b5557b77d75534251371"
+      "Hash": "a711769be34214addf7805278b72d56b"
     },
     "RcppEigen": {
       "Package": "RcppEigen",
-      "Version": "0.3.4.0.0",
+      "Version": "0.3.4.0.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -949,7 +968,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "df49e3306f232ec28f1604e36a202847"
+      "Hash": "4ac8e423216b8b70cb9653d1b3f71eb9"
     },
     "RcppHNSW": {
       "Package": "RcppHNSW",
@@ -966,7 +985,7 @@
       "Package": "RcppML",
       "Version": "0.3.7",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "Matrix",
         "Rcpp",
@@ -996,9 +1015,9 @@
     },
     "Rdpack": {
       "Package": "Rdpack",
-      "Version": "2.6",
+      "Version": "2.6.1",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "methods",
@@ -1006,26 +1025,26 @@
         "tools",
         "utils"
       ],
-      "Hash": "3e1384ada5d3948b392e98b11434d972"
+      "Hash": "24a964d2cf75ad25d7b843856c8d4c93"
     },
     "ResidualMatrix": {
       "Package": "ResidualMatrix",
-      "Version": "1.14.0",
+      "Version": "1.14.1",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "DelayedArray",
         "Matrix",
         "S4Vectors",
         "methods"
       ],
-      "Hash": "26b5d104b2d27d7aa3725c4e3aa1b3b9"
+      "Hash": "823cbf5a8757132e28c5b78b213a2ec2"
     },
     "Rgraphviz": {
       "Package": "Rgraphviz",
       "Version": "2.48.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "grDevices",
@@ -1042,7 +1061,7 @@
       "Package": "Rhdf5lib",
       "Version": "1.26.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R"
       ],
@@ -1070,7 +1089,7 @@
       "Package": "Rsamtools",
       "Version": "2.20.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "BiocGenerics",
         "BiocParallel",
@@ -1115,7 +1134,7 @@
       "Package": "S4Arrays",
       "Version": "1.4.1",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "BiocGenerics",
         "IRanges",
@@ -1131,7 +1150,7 @@
     },
     "S4Vectors": {
       "Package": "S4Vectors",
-      "Version": "0.42.0",
+      "Version": "0.42.1",
       "Source": "Repository",
       "Repository": "https://bioconductor.org/packages/3.19/bioc",
       "Requirements": [
@@ -1142,13 +1161,13 @@
         "stats4",
         "utils"
       ],
-      "Hash": "245ac721ca6088200392ea5251db9e3c"
+      "Hash": "86398fc7c5f6be4ba29fe23ed08c2da6"
     },
     "ScaledMatrix": {
       "Package": "ScaledMatrix",
       "Version": "1.12.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "DelayedArray",
         "Matrix",
@@ -1276,7 +1295,7 @@
       "Package": "SingleCellExperiment",
       "Version": "1.26.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "BiocGenerics",
         "DelayedArray",
@@ -1291,9 +1310,9 @@
     },
     "SparseArray": {
       "Package": "SparseArray",
-      "Version": "1.4.5",
+      "Version": "1.4.8",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "BiocGenerics",
         "IRanges",
@@ -1308,13 +1327,13 @@
         "stats",
         "utils"
       ],
-      "Hash": "c3a929f64891a53c31f4b35c3d06a056"
+      "Hash": "97f70ff11c14edd379ee2429228cbb60"
     },
     "SparseM": {
       "Package": "SparseM",
-      "Version": "1.81",
+      "Version": "1.84-2",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "graphics",
@@ -1322,13 +1341,13 @@
         "stats",
         "utils"
       ],
-      "Hash": "2042cd9759cc89a453c4aefef0ce9aae"
+      "Hash": "e78499cbcbbca98200254bd171379165"
     },
     "SummarizedExperiment": {
       "Package": "SummarizedExperiment",
       "Version": "1.34.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "Biobase",
         "BiocGenerics",
@@ -1350,7 +1369,7 @@
     },
     "TMB": {
       "Package": "TMB",
-      "Version": "1.9.11",
+      "Version": "1.9.14",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -1362,13 +1381,13 @@
         "stats",
         "utils"
       ],
-      "Hash": "14d82c02c5dc0330a0f3f3d717d92a19"
+      "Hash": "685836c6eb244780c75d1f8d0124fdbd"
     },
     "UCSC.utils": {
       "Package": "UCSC.utils",
       "Version": "1.0.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "S4Vectors",
         "httr",
@@ -1380,21 +1399,21 @@
     },
     "XML": {
       "Package": "XML",
-      "Version": "3.99-0.16.1",
+      "Version": "3.99-0.17",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "methods",
         "utils"
       ],
-      "Hash": "da3098169c887914551b607c66fe2a28"
+      "Hash": "bc2a8a1139d8d4bd9c46086708945124"
     },
     "XVector": {
       "Package": "XVector",
       "Version": "0.44.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "BiocGenerics",
         "IRanges",
@@ -1421,7 +1440,7 @@
       "Package": "abind",
       "Version": "1.4-5",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "methods",
@@ -1433,7 +1452,7 @@
       "Package": "ade4",
       "Version": "1.7-22",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "MASS",
         "R",
@@ -1510,7 +1529,7 @@
       "Package": "aod",
       "Version": "1.3.3",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "methods",
@@ -1522,7 +1541,7 @@
       "Package": "ape",
       "Version": "5.8",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "Rcpp",
@@ -1539,9 +1558,9 @@
     },
     "aplot": {
       "Package": "aplot",
-      "Version": "0.2.2",
+      "Version": "0.2.3",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "ggfun",
@@ -1552,13 +1571,13 @@
         "patchwork",
         "utils"
       ],
-      "Hash": "869a35e6d38fe9936eb578e09091842b"
+      "Hash": "d2dcbd0459b23b43cc078e2676bd7b84"
     },
     "ash": {
       "Package": "ash",
       "Version": "1.0-15",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Hash": "e16751c399be6260ddf41f8148a3f8ef"
     },
     "askpass": {
@@ -1595,7 +1614,7 @@
       "Package": "batchelor",
       "Version": "1.20.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "BiocGenerics",
         "BiocNeighbors",
@@ -1623,7 +1642,7 @@
       "Package": "beachmat",
       "Version": "2.20.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "BiocGenerics",
         "DelayedArray",
@@ -1638,7 +1657,7 @@
       "Package": "beeswarm",
       "Version": "0.4.0",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "grDevices",
         "graphics",
@@ -1649,7 +1668,7 @@
     },
     "biomaRt": {
       "Package": "biomaRt",
-      "Version": "2.60.0",
+      "Version": "2.60.1",
       "Source": "Repository",
       "Repository": "https://bioconductor.org/packages/3.19/bioc",
       "Requirements": [
@@ -1664,13 +1683,13 @@
         "utils",
         "xml2"
       ],
-      "Hash": "8bce67ed479b1d54e1627598edd9db30"
+      "Hash": "e53d495b9e6ecd5394acad1d53c3fa22"
     },
     "bit": {
       "Package": "bit",
       "Version": "4.0.5",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R"
       ],
@@ -1680,7 +1699,7 @@
       "Package": "bit64",
       "Version": "4.0.5",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "bit",
@@ -1692,16 +1711,16 @@
     },
     "bitops": {
       "Package": "bitops",
-      "Version": "1.0-7",
+      "Version": "1.0-8",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
-      "Hash": "b7d8d8ee39869c18d8846a184dd8a1af"
+      "Repository": "CRAN",
+      "Hash": "da69e6b6f8feebec0827205aad3fdbd8"
     },
     "blme": {
       "Package": "blme",
       "Version": "1.0-5",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "lme4",
@@ -1734,16 +1753,6 @@
         "stats"
       ],
       "Hash": "96abeed416a286d4a0f52e550b612343"
-    },
-    "brio": {
-      "Package": "brio",
-      "Version": "1.1.5",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Requirements": [
-        "R"
-      ],
-      "Hash": "c1ee497a6d999947c2c224ae46799b1a"
     },
     "broom": {
       "Package": "broom",
@@ -1789,25 +1798,25 @@
     },
     "caTools": {
       "Package": "caTools",
-      "Version": "1.18.2",
+      "Version": "1.18.3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "bitops"
       ],
-      "Hash": "34d90fa5845004236b9eacafc51d07b2"
+      "Hash": "ab79c733080d83b4ad8a2cc33c1ef393"
     },
     "cachem": {
       "Package": "cachem",
-      "Version": "1.0.8",
+      "Version": "1.1.0",
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "fastmap",
         "rlang"
       ],
-      "Hash": "c35768291560ce302c0a6589f92e837d"
+      "Hash": "cd9a672193789068eb5a2aad65a0dedf"
     },
     "callr": {
       "Package": "callr",
@@ -1826,7 +1835,7 @@
       "Package": "car",
       "Version": "3.1-2",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "MASS",
         "R",
@@ -1850,7 +1859,7 @@
       "Package": "carData",
       "Version": "3.0-5",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R"
       ],
@@ -1870,7 +1879,7 @@
     },
     "checkmate": {
       "Package": "checkmate",
-      "Version": "2.3.1",
+      "Version": "2.3.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -1878,13 +1887,13 @@
         "backports",
         "utils"
       ],
-      "Hash": "c01cab1cb0f9125211a6fc99d540e315"
+      "Hash": "0e14e01ce07e7c88fd25de6d4260d26b"
     },
     "circlize": {
       "Package": "circlize",
       "Version": "0.4.16",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "GlobalOptions",
         "R",
@@ -1901,14 +1910,14 @@
     },
     "cli": {
       "Package": "cli",
-      "Version": "3.6.2",
+      "Version": "3.6.3",
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "R",
         "utils"
       ],
-      "Hash": "1216ac65ac55ec0058a6f75d7ca0fd52"
+      "Hash": "b21916dd77a27642b447374a5d30ecf3"
     },
     "clipr": {
       "Package": "clipr",
@@ -1924,7 +1933,7 @@
       "Package": "clue",
       "Version": "0.3-65",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "cluster",
@@ -1950,7 +1959,7 @@
     },
     "clustifyr": {
       "Package": "clustifyr",
-      "Version": "1.16.0",
+      "Version": "1.16.2",
       "Source": "Repository",
       "Repository": "https://bioconductor.org/packages/3.19/bioc",
       "Requirements": [
@@ -1977,7 +1986,7 @@
         "tidyr",
         "utils"
       ],
-      "Hash": "d91422fcafe2a4cd137291cff6376d5c"
+      "Hash": "d4b9b671f4a68b506517f3190c695615"
     },
     "clustree": {
       "Package": "clustree",
@@ -2012,9 +2021,9 @@
     },
     "colorspace": {
       "Package": "colorspace",
-      "Version": "2.1-0",
+      "Version": "2.1-1",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "grDevices",
@@ -2022,7 +2031,7 @@
         "methods",
         "stats"
       ],
-      "Hash": "f20c47fd52fae58b4e377c37bb8c335b"
+      "Hash": "d954cb1c57e8d8b756165d7ba18aa55a"
     },
     "commonmark": {
       "Package": "commonmark",
@@ -2048,7 +2057,7 @@
       "Package": "corpcor",
       "Version": "1.6.10",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "stats"
@@ -2057,10 +2066,10 @@
     },
     "corrplot": {
       "Package": "corrplot",
-      "Version": "0.92",
+      "Version": "0.94",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
-      "Hash": "fcf11a91936fd5047b2ee9bc00595e36"
+      "Repository": "CRAN",
+      "Hash": "b575018abd67c252491ffce5ecb94630"
     },
     "cowplot": {
       "Package": "cowplot",
@@ -2091,7 +2100,7 @@
     },
     "crayon": {
       "Package": "crayon",
-      "Version": "1.5.2",
+      "Version": "1.5.3",
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
@@ -2099,7 +2108,7 @@
         "methods",
         "utils"
       ],
-      "Hash": "e8a1e41acf02548751f45c718d55aa6a"
+      "Hash": "859d96e65ef198fd43e82b9628d593ef"
     },
     "crosstalk": {
       "Package": "crosstalk",
@@ -2128,7 +2137,7 @@
       "Package": "cytolib",
       "Version": "2.16.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "BH",
         "R",
@@ -2139,14 +2148,14 @@
     },
     "data.table": {
       "Package": "data.table",
-      "Version": "1.15.4",
+      "Version": "1.16.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "methods"
       ],
-      "Hash": "8ee9ac56ef633d0c7cab8b2ca87d683e"
+      "Hash": "fb24e05d4a91d8b1c7ff8e284bde834a"
     },
     "dbplyr": {
       "Package": "dbplyr",
@@ -2180,7 +2189,7 @@
       "Package": "deSolve",
       "Version": "1.40",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "grDevices",
@@ -2202,50 +2211,22 @@
       ],
       "Hash": "24754fce82729ff85317dd195b6646a8"
     },
-    "desc": {
-      "Package": "desc",
-      "Version": "1.4.3",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Requirements": [
-        "R",
-        "R6",
-        "cli",
-        "utils"
-      ],
-      "Hash": "99b79fcbd6c4d1ce087f5c5c758b384f"
-    },
-    "diffobj": {
-      "Package": "diffobj",
-      "Version": "0.3.5",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Requirements": [
-        "R",
-        "crayon",
-        "methods",
-        "stats",
-        "tools",
-        "utils"
-      ],
-      "Hash": "bcaa8b95f8d7d01a5dedfd959ce88ab8"
-    },
     "digest": {
       "Package": "digest",
-      "Version": "0.6.35",
+      "Version": "0.6.36",
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "R",
         "utils"
       ],
-      "Hash": "698ece7ba5a4fa4559e3d537e7ec3d31"
+      "Hash": "fd6824ad91ede64151e93af67df6376b"
     },
     "diptest": {
       "Package": "diptest",
       "Version": "0.77-1",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "graphics",
         "stats"
@@ -2290,6 +2271,30 @@
         "utils"
       ],
       "Hash": "77753001c40ed2e9455109c5535717b8"
+    },
+    "doBy": {
+      "Package": "doBy",
+      "Version": "4.6.22",
+      "Source": "Repository",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
+      "Requirements": [
+        "Deriv",
+        "MASS",
+        "Matrix",
+        "R",
+        "boot",
+        "broom",
+        "cowplot",
+        "dplyr",
+        "ggplot2",
+        "methods",
+        "microbenchmark",
+        "modelr",
+        "rlang",
+        "tibble",
+        "tidyr"
+      ],
+      "Hash": "a9b56885b9596c284168df26d6179c40"
     },
     "doParallel": {
       "Package": "doParallel",
@@ -2349,7 +2354,7 @@
       "Package": "dplyr",
       "Version": "1.1.4",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "R6",
@@ -2370,7 +2375,7 @@
     },
     "dqrng": {
       "Package": "dqrng",
-      "Version": "0.4.0",
+      "Version": "0.4.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -2379,11 +2384,11 @@
         "Rcpp",
         "sitmo"
       ],
-      "Hash": "b31198e6268008976689b196bf9d883f"
+      "Hash": "6d7b942d8f615705f89a7883998fc839"
     },
     "dsb": {
       "Package": "dsb",
-      "Version": "1.0.3",
+      "Version": "1.0.4",
       "Source": "Bioconductor",
       "Repository": "RSPM",
       "Requirements": [
@@ -2393,7 +2398,7 @@
         "mclust",
         "stats"
       ],
-      "Hash": "8ce46acc0e47681cc402c62f2dedd8fc"
+      "Hash": "74732ddd4b85018cdf79d042b9a56bd6"
     },
     "dtplyr": {
       "Package": "dtplyr",
@@ -2416,7 +2421,7 @@
     },
     "edgeR": {
       "Package": "edgeR",
-      "Version": "4.2.0",
+      "Version": "4.2.1",
       "Source": "Repository",
       "Repository": "https://bioconductor.org/packages/3.19/bioc",
       "Requirements": [
@@ -2429,13 +2434,13 @@
         "stats",
         "utils"
       ],
-      "Hash": "20783ecb7e7cea3f351e8b21153e3eb8"
+      "Hash": "729daec53b663926458ccde421f5c2fb"
     },
     "emdist": {
       "Package": "emdist",
       "Version": "0.3-3",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R"
       ],
@@ -2445,7 +2450,7 @@
       "Package": "entropy",
       "Version": "1.3.1",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R"
       ],
@@ -2453,14 +2458,14 @@
     },
     "evaluate": {
       "Package": "evaluate",
-      "Version": "0.23",
+      "Version": "0.24.0",
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "R",
         "methods"
       ],
-      "Hash": "daf4a1246be12c1fa8c7705a0935c1a0"
+      "Hash": "a1066cbc05caee9a4bf6d90f194ff4da"
     },
     "extrafont": {
       "Package": "extrafont",
@@ -2490,7 +2495,7 @@
       "Package": "fANCOVA",
       "Version": "0.6-1",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Hash": "2557114e4acc64d572add2881d725bde"
     },
     "fansi": {
@@ -2509,12 +2514,12 @@
       "Package": "farver",
       "Version": "2.1.2",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Hash": "680887028577f3fa2a81e410ed0d6e42"
     },
     "fastDummies": {
       "Package": "fastDummies",
-      "Version": "1.7.3",
+      "Version": "1.7.4",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -2523,20 +2528,20 @@
         "stringr",
         "tibble"
       ],
-      "Hash": "e0f9c0c051e0e8d89996d7f0c400539f"
+      "Hash": "dc256683a45e31f9dc553440b909f198"
     },
     "fastmap": {
       "Package": "fastmap",
-      "Version": "1.1.1",
+      "Version": "1.2.0",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "f7736a18de97dea803bde0a2daaafb27"
+      "Hash": "aa5e1cd11c2d15497494c5292d7ffcc8"
     },
     "fastmatch": {
       "Package": "fastmatch",
       "Version": "1.1-4",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R"
       ],
@@ -2546,7 +2551,7 @@
       "Package": "fda",
       "Version": "6.1.8",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "deSolve",
@@ -2559,7 +2564,7 @@
       "Package": "fds",
       "Version": "1.8",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "RCurl",
@@ -2571,7 +2576,7 @@
       "Package": "fgsea",
       "Version": "1.30.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "BH",
         "BiocParallel",
@@ -2591,7 +2596,7 @@
     },
     "fields": {
       "Package": "fields",
-      "Version": "15.2",
+      "Version": "16.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -2601,13 +2606,13 @@
         "spam",
         "viridisLite"
       ],
-      "Hash": "66fa5a16464666772f4929f8f5b2fc71"
+      "Hash": "dac9b7c0f2450644021e2097a5360c12"
     },
     "filelock": {
       "Package": "filelock",
       "Version": "1.0.3",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R"
       ],
@@ -2615,7 +2620,7 @@
     },
     "fitdistrplus": {
       "Package": "fitdistrplus",
-      "Version": "1.1-11",
+      "Version": "1.2-1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -2623,16 +2628,17 @@
         "R",
         "grDevices",
         "methods",
+        "rlang",
         "stats",
         "survival"
       ],
-      "Hash": "f40ef9686e85681a1ccbf33d9236aeb9"
+      "Hash": "78f15d68e31a6d9a378c546c783bac15"
     },
     "flowCore": {
       "Package": "flowCore",
       "Version": "2.16.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "BH",
         "Biobase",
@@ -2657,7 +2663,7 @@
       "Package": "flowStats",
       "Version": "4.16.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "Biobase",
         "BiocGenerics",
@@ -2689,7 +2695,7 @@
       "Package": "flowViz",
       "Version": "1.68.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "Biobase",
         "IDPmisc",
@@ -2715,7 +2721,7 @@
       "Package": "flowWorkspace",
       "Version": "4.16.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "BH",
         "Biobase",
@@ -2793,7 +2799,7 @@
       "Package": "formatR",
       "Version": "1.14",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R"
       ],
@@ -2814,7 +2820,7 @@
       "Package": "futile.logger",
       "Version": "1.4.3",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "futile.options",
@@ -2827,7 +2833,7 @@
       "Package": "futile.options",
       "Version": "1.0.1",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R"
       ],
@@ -2835,7 +2841,7 @@
     },
     "future": {
       "Package": "future",
-      "Version": "1.33.2",
+      "Version": "1.34.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -2846,7 +2852,7 @@
         "parallelly",
         "utils"
       ],
-      "Hash": "fd7b1d69d16d0d114e4fa82db68f184c"
+      "Hash": "475771e3edb711591476be387c9a8c2e"
     },
     "future.apply": {
       "Package": "future.apply",
@@ -2888,7 +2894,7 @@
       "Package": "generics",
       "Version": "0.1.3",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "methods"
@@ -2916,7 +2922,7 @@
       "Package": "ggbeeswarm",
       "Version": "0.7.2",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "beeswarm",
@@ -2958,18 +2964,20 @@
     },
     "ggfun": {
       "Package": "ggfun",
-      "Version": "0.1.4",
+      "Version": "0.1.6",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "cli",
+        "dplyr",
         "ggplot2",
         "grid",
         "rlang",
-        "utils"
+        "utils",
+        "yulab.utils"
       ],
-      "Hash": "91780e07f1d631a1152835b4e25c66b9"
+      "Hash": "c56e3463c7358ced17ce79a4cab0fb65"
     },
     "ggplot2": {
       "Package": "ggplot2",
@@ -3000,7 +3008,7 @@
       "Package": "ggplotify",
       "Version": "0.1.2",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "ggplot2",
@@ -3016,7 +3024,7 @@
       "Package": "ggpubr",
       "Version": "0.6.0",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "cowplot",
@@ -3075,7 +3083,7 @@
       "Package": "ggrastr",
       "Version": "1.0.2",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "Cairo",
         "R",
@@ -3119,22 +3127,22 @@
     },
     "ggsci": {
       "Package": "ggsci",
-      "Version": "3.1.0",
+      "Version": "3.2.0",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "ggplot2",
         "grDevices",
         "scales"
       ],
-      "Hash": "0c811246e30e146acd92da02bfdbb22a"
+      "Hash": "0c3268cddf4d3a3ce4e7e6330f8e92c8"
     },
     "ggsignif": {
       "Package": "ggsignif",
       "Version": "0.6.4",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "ggplot2"
       ],
@@ -3174,7 +3182,7 @@
       "Package": "ggtree",
       "Version": "3.12.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "ape",
@@ -3202,7 +3210,7 @@
       "Package": "glmmTMB",
       "Version": "1.1.9",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "Matrix",
         "R",
@@ -3342,7 +3350,7 @@
       "Package": "graph",
       "Version": "1.82.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "BiocGenerics",
         "R",
@@ -3384,7 +3392,7 @@
       "Package": "gridGraphics",
       "Version": "0.5-1",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "grDevices",
         "graphics",
@@ -3421,7 +3429,7 @@
     },
     "harmony": {
       "Package": "harmony",
-      "Version": "1.2.0",
+      "Version": "1.2.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -3438,7 +3446,7 @@
         "rlang",
         "tibble"
       ],
-      "Hash": "4f3b181961712ff4127a8634c1367f89"
+      "Hash": "1baaf521d42483d6d36d5c2f425e1ad9"
     },
     "haven": {
       "Package": "haven",
@@ -3465,7 +3473,7 @@
       "Package": "hdrcde",
       "Version": "3.4",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "KernSmooth",
         "R",
@@ -3489,9 +3497,9 @@
     },
     "hexbin": {
       "Package": "hexbin",
-      "Version": "1.28.3",
+      "Version": "1.28.4",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "grDevices",
@@ -3502,24 +3510,24 @@
         "stats",
         "utils"
       ],
-      "Hash": "124e384c01d8746f1c12f9dc1b80a161"
+      "Hash": "2520cb5cbe2c02559992b64f7ad80134"
     },
     "highr": {
       "Package": "highr",
-      "Version": "0.10",
+      "Version": "0.11",
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "R",
         "xfun"
       ],
-      "Hash": "06230136b2d2b9ba5805e1963fa6e890"
+      "Hash": "d65ba49117ca223614f71b60d85b8ab7"
     },
     "hms": {
       "Package": "hms",
       "Version": "1.1.3",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "lifecycle",
         "methods",
@@ -3633,7 +3641,7 @@
       "Package": "igraph",
       "Version": "2.0.3",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "Matrix",
         "R",
@@ -3656,7 +3664,7 @@
       "Package": "interp",
       "Version": "1.1-6",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "Rcpp",
@@ -3682,7 +3690,7 @@
       "Package": "isoband",
       "Version": "0.2.7",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "CRAN",
       "Requirements": [
         "grid",
         "utils"
@@ -3704,7 +3712,7 @@
       "Package": "jpeg",
       "Version": "0.1-10",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R"
       ],
@@ -3732,9 +3740,9 @@
     },
     "kernlab": {
       "Package": "kernlab",
-      "Version": "0.9-32",
+      "Version": "0.9-33",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "grDevices",
@@ -3742,11 +3750,11 @@
         "methods",
         "stats"
       ],
-      "Hash": "d7d6a7cb690ac73eeced99e1ed9d6cdb"
+      "Hash": "97d266249d6c3b4f40e34e1ceaf9c558"
     },
     "knitr": {
       "Package": "knitr",
-      "Version": "1.46",
+      "Version": "1.47",
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
@@ -3758,13 +3766,13 @@
         "xfun",
         "yaml"
       ],
-      "Hash": "6e008ab1d696a5283c79765fa7b56b47"
+      "Hash": "7c99b2d55584b982717fcc0950378612"
     },
     "ks": {
       "Package": "ks",
       "Version": "1.14.2",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "FNN",
         "KernSmooth",
@@ -3783,7 +3791,7 @@
       "Package": "labeling",
       "Version": "0.4.3",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "graphics",
         "stats"
@@ -3794,7 +3802,7 @@
       "Package": "lambda.r",
       "Version": "1.2.4",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "formatR"
@@ -3831,7 +3839,7 @@
       "Package": "latticeExtra",
       "Version": "0.6-30",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "MASS",
         "R",
@@ -3885,7 +3893,7 @@
     },
     "limma": {
       "Package": "limma",
-      "Version": "3.60.2",
+      "Version": "3.60.4",
       "Source": "Repository",
       "Repository": "https://bioconductor.org/packages/3.19/bioc",
       "Requirements": [
@@ -3897,7 +3905,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "e50bcf846c8a9109a961d6058c9e5112"
+      "Hash": "b75950d7143715041064b21f3120f19e"
     },
     "listenv": {
       "Package": "listenv",
@@ -3911,7 +3919,7 @@
     },
     "lme4": {
       "Package": "lme4",
-      "Version": "1.1-35.3",
+      "Version": "1.1-35.5",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -3933,13 +3941,13 @@
         "stats",
         "utils"
       ],
-      "Hash": "862f9d995f528f3051f524791955b20c"
+      "Hash": "16a08fc75007da0d08e0c0388c7c33e6"
     },
     "lmerTest": {
       "Package": "lmerTest",
       "Version": "3.1-3",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "MASS",
         "R",
@@ -3966,14 +3974,14 @@
     },
     "locfit": {
       "Package": "locfit",
-      "Version": "1.5-9.9",
+      "Version": "1.5-9.10",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "lattice"
       ],
-      "Hash": "3885127e04b35dafded049075057ad83"
+      "Hash": "7d8e0ac914051ca0254332387d9b5816"
     },
     "lubridate": {
       "Package": "lubridate",
@@ -4012,7 +4020,7 @@
     },
     "markdown": {
       "Package": "markdown",
-      "Version": "1.12",
+      "Version": "1.13",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -4021,23 +4029,23 @@
         "utils",
         "xfun"
       ],
-      "Hash": "765cf53992401b3b6c297b69e1edb8bd"
+      "Hash": "074efab766a9d6360865ad39512f2a7e"
     },
     "matrixStats": {
       "Package": "matrixStats",
-      "Version": "1.3.0",
+      "Version": "1.4.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
-      "Hash": "4b3ea27a19d669c0405b38134d89a9d1"
+      "Hash": "402a3de5925c153a18f6b81f8e3e56c6"
     },
     "mclust": {
       "Package": "mclust",
       "Version": "6.1.1",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "grDevices",
@@ -4075,6 +4083,18 @@
       ],
       "Hash": "110ee9d83b496279960e162ac97764ce"
     },
+    "microbenchmark": {
+      "Package": "microbenchmark",
+      "Version": "1.5.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "graphics",
+        "stats"
+      ],
+      "Hash": "f9d226d88d4087d817d4e616626ce8e5"
+    },
     "mime": {
       "Package": "mime",
       "Version": "0.12",
@@ -4099,19 +4119,19 @@
     },
     "minqa": {
       "Package": "minqa",
-      "Version": "1.2.7",
+      "Version": "1.2.8",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "Rcpp"
       ],
-      "Hash": "aba060ef3c097b26a4d304ea39d87f32"
+      "Hash": "785ef8e22389d4a7634c6c944f2dc07d"
     },
     "mnormt": {
       "Package": "mnormt",
       "Version": "2.1.1",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R"
       ],
@@ -4139,7 +4159,7 @@
       "Package": "multicool",
       "Version": "1.0.1",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "Rcpp",
         "methods"
@@ -4150,7 +4170,7 @@
       "Package": "munsell",
       "Version": "0.5.1",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "colorspace",
         "methods"
@@ -4161,7 +4181,7 @@
       "Package": "muscat",
       "Version": "1.18.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "BiocParallel",
         "ComplexHeatmap",
@@ -4198,20 +4218,20 @@
     },
     "mvtnorm": {
       "Package": "mvtnorm",
-      "Version": "1.2-5",
+      "Version": "1.3-1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "stats"
       ],
-      "Hash": "4d1891e59ac7a12b4e7e8a69349125f1"
+      "Hash": "77c61d51ce0f36e3c1a76e6b295aab31"
     },
     "ncdfFlow": {
       "Package": "ncdfFlow",
       "Version": "2.50.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "BH",
         "Biobase",
@@ -4243,9 +4263,9 @@
     },
     "nlme": {
       "Package": "nlme",
-      "Version": "3.1-164",
+      "Version": "3.1-165",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "graphics",
@@ -4253,17 +4273,14 @@
         "stats",
         "utils"
       ],
-      "Hash": "a623a2239e642806158bc4dc3f51565d"
+      "Hash": "2769a88be217841b1f33ed469675c3cc"
     },
     "nloptr": {
       "Package": "nloptr",
-      "Version": "2.0.3",
+      "Version": "2.1.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Requirements": [
-        "testthat"
-      ],
-      "Hash": "277c67a08f358f42b6a77826e4492f79"
+      "Hash": "27550641889a3abf3aec4d91186311ec"
     },
     "nnet": {
       "Package": "nnet",
@@ -4281,7 +4298,7 @@
       "Package": "nortest",
       "Version": "1.0-4",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "stats"
       ],
@@ -4291,7 +4308,7 @@
       "Package": "numDeriv",
       "Version": "2016.8-1.1",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R"
       ],
@@ -4299,17 +4316,17 @@
     },
     "openssl": {
       "Package": "openssl",
-      "Version": "2.1.2",
+      "Version": "2.2.0",
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "askpass"
       ],
-      "Hash": "ea2475b073243d9d338aa8f086ce973e"
+      "Hash": "2bcca3848e4734eb3b16103bc9aa4b8e"
     },
     "openxlsx": {
       "Package": "openxlsx",
-      "Version": "4.2.5.2",
+      "Version": "4.2.7",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -4322,13 +4339,13 @@
         "utils",
         "zip"
       ],
-      "Hash": "c03b4c18d42da881fb8e15a085c2b9d6"
+      "Hash": "4eb6bb5d6b95b2e3177f0dd1e7b9ca0e"
     },
     "org.Hs.eg.db": {
       "Package": "org.Hs.eg.db",
       "Version": "3.19.1",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/data/annotation",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "AnnotationDbi",
         "R",
@@ -4338,7 +4355,7 @@
     },
     "parallelly": {
       "Package": "parallelly",
-      "Version": "1.37.1",
+      "Version": "1.38.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -4346,7 +4363,7 @@
         "tools",
         "utils"
       ],
-      "Hash": "5410df8d22bd36e616f2a2343dbb328c"
+      "Hash": "6e8b139c1904f5e9e14c69db64453bbe"
     },
     "patchwork": {
       "Package": "patchwork",
@@ -4370,7 +4387,7 @@
       "Package": "pathview",
       "Version": "1.44.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "AnnotationDbi",
         "KEGGREST",
@@ -4399,21 +4416,21 @@
     },
     "pbkrtest": {
       "Package": "pbkrtest",
-      "Version": "0.5.2",
+      "Version": "0.5.3",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "CRAN",
       "Requirements": [
         "MASS",
         "Matrix",
         "R",
         "broom",
+        "doBy",
         "dplyr",
         "lme4",
         "methods",
-        "numDeriv",
-        "parallel"
+        "numDeriv"
       ],
-      "Hash": "3b5b99f4d3f067bb9c1d59317d071370"
+      "Hash": "938e6bbc4ac57534f8b43224506a8966"
     },
     "pbmcapply": {
       "Package": "pbmcapply",
@@ -4428,21 +4445,21 @@
     },
     "pcaPP": {
       "Package": "pcaPP",
-      "Version": "2.0-4",
+      "Version": "2.0-5",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "methods",
         "mvtnorm"
       ],
-      "Hash": "55e85f05d479f9c8644f94900bbefd56"
+      "Hash": "5e27d30304bd76dc55a9af1ec6959168"
     },
     "phangorn": {
       "Package": "phangorn",
       "Version": "2.11.1",
-      "Source": "Bioconductor",
-      "Repository": "CRAN",
+      "Source": "Repository",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "Matrix",
         "R",
@@ -4510,28 +4527,13 @@
       "Package": "pixmap",
       "Version": "0.4-13",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "grDevices",
         "graphics",
         "methods"
       ],
       "Hash": "4629261ce2128eb89f02598e4ea91364"
-    },
-    "pkgbuild": {
-      "Package": "pkgbuild",
-      "Version": "1.4.4",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Requirements": [
-        "R",
-        "R6",
-        "callr",
-        "cli",
-        "desc",
-        "processx"
-      ],
-      "Hash": "a29e8e134a460a01e0ca67a4763c595b"
     },
     "pkgconfig": {
       "Package": "pkgconfig",
@@ -4543,32 +4545,11 @@
       ],
       "Hash": "01f28d4278f15c76cddbea05899c5d6f"
     },
-    "pkgload": {
-      "Package": "pkgload",
-      "Version": "1.3.4",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Requirements": [
-        "R",
-        "cli",
-        "crayon",
-        "desc",
-        "fs",
-        "glue",
-        "methods",
-        "pkgbuild",
-        "rlang",
-        "rprojroot",
-        "utils",
-        "withr"
-      ],
-      "Hash": "876c618df5ae610be84356d5d7a5d124"
-    },
     "plogr": {
       "Package": "plogr",
       "Version": "0.2.0",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Hash": "09eb987710984fc2905c7129c7d85e65"
     },
     "plotly": {
@@ -4626,19 +4607,19 @@
     },
     "polyclip": {
       "Package": "polyclip",
-      "Version": "1.10-6",
+      "Version": "1.10-7",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
-      "Hash": "436542aadb70675e361cf359285af7c7"
+      "Hash": "5879bf5aae702ffef0a315c44328f984"
     },
     "polynom": {
       "Package": "polynom",
       "Version": "1.4-1",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "graphics",
         "stats"
@@ -4649,7 +4630,7 @@
       "Package": "pracma",
       "Version": "2.4.4",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "grDevices",
@@ -4658,13 +4639,6 @@
         "utils"
       ],
       "Hash": "44bc172d47d1ea0a638d9f299e321203"
-    },
-    "praise": {
-      "Package": "praise",
-      "Version": "1.0.0",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "a555924add98c99d2f411e37e7d25e9f"
     },
     "preprocessCore": {
       "Package": "preprocessCore",
@@ -4703,7 +4677,7 @@
       "Package": "progress",
       "Version": "1.2.3",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "R6",
@@ -4745,7 +4719,7 @@
       "Package": "proxy",
       "Version": "0.4-27",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "stats",
@@ -4783,7 +4757,7 @@
       "Package": "quadprog",
       "Version": "1.5-8",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R"
       ],
@@ -4791,9 +4765,9 @@
     },
     "quantreg": {
       "Package": "quantreg",
-      "Version": "5.97",
+      "Version": "5.98",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "MASS",
         "Matrix",
@@ -4805,24 +4779,24 @@
         "stats",
         "survival"
       ],
-      "Hash": "1bbc97f7d637ab3917c514a69047b2c1"
+      "Hash": "017561f17632c065388b7062da030952"
     },
     "ragg": {
       "Package": "ragg",
-      "Version": "1.3.1",
+      "Version": "1.3.2",
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "systemfonts",
         "textshaping"
       ],
-      "Hash": "539dcb63ce611fe389b4c8e2b546cf24"
+      "Hash": "e3087db406e079a8a2fd87f413918ed3"
     },
     "rainbow": {
       "Package": "rainbow",
       "Version": "3.8",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "MASS",
         "R",
@@ -4849,7 +4823,7 @@
       "Package": "rbibutils",
       "Version": "2.2.16",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "tools",
@@ -4861,7 +4835,7 @@
       "Package": "readr",
       "Version": "2.1.5",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "R6",
@@ -4899,7 +4873,7 @@
       "Package": "remaCor",
       "Version": "0.0.18",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "EnvStats",
         "R",
@@ -4945,7 +4919,7 @@
     },
     "reprex": {
       "Package": "reprex",
-      "Version": "2.1.0",
+      "Version": "2.1.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -4963,7 +4937,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "1425f91b4d5d9a8f25352c44a3d914ed"
+      "Hash": "97b1d5361a24d9fb588db7afe3e5bcbf"
     },
     "reshape2": {
       "Package": "reshape2",
@@ -4980,7 +4954,7 @@
     },
     "reticulate": {
       "Package": "reticulate",
-      "Version": "1.37.0",
+      "Version": "1.39.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -4998,13 +4972,13 @@
         "utils",
         "withr"
       ],
-      "Hash": "9465d3bc6ec44eeaa52527ac2cba4020"
+      "Hash": "e1a5d04397edc1580c5e0ed1dbdccf76"
     },
     "rhdf5": {
       "Package": "rhdf5",
       "Version": "2.48.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "Rhdf5lib",
@@ -5017,7 +4991,7 @@
       "Package": "rhdf5filters",
       "Version": "1.16.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "Rhdf5lib"
       ],
@@ -5025,28 +4999,28 @@
     },
     "rjson": {
       "Package": "rjson",
-      "Version": "0.2.21",
+      "Version": "0.2.22",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
-      "Hash": "f9da75e6444e95a1baf8ca24909d63b9"
+      "Hash": "ff387cabd34002e7e50d2becacb0be76"
     },
     "rlang": {
       "Package": "rlang",
-      "Version": "1.1.3",
+      "Version": "1.1.4",
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "R",
         "utils"
       ],
-      "Hash": "42548638fae05fd9a9b5f3f437fbbbe2"
+      "Hash": "3eec01f8b1dee337674b2e34ab1f9bc1"
     },
     "rmarkdown": {
       "Package": "rmarkdown",
-      "Version": "2.26",
+      "Version": "2.27",
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
@@ -5065,13 +5039,13 @@
         "xfun",
         "yaml"
       ],
-      "Hash": "9b148e7f95d33aac01f31282d49e4f44"
+      "Hash": "27f9502e1cdbfa195f94e03b0f517484"
     },
     "robustbase": {
       "Package": "robustbase",
-      "Version": "0.99-2",
+      "Version": "0.99-4",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "CRAN",
       "Requirements": [
         "DEoptimR",
         "R",
@@ -5080,7 +5054,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "bae2e53c94459ff147aef478eac6ee94"
+      "Hash": "dc2014ed526bc05ecdf68d9e4717d15a"
     },
     "rprojroot": {
       "Package": "rprojroot",
@@ -5094,9 +5068,9 @@
     },
     "rrcov": {
       "Package": "rrcov",
-      "Version": "1.7-5",
+      "Version": "1.7-6",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "lattice",
@@ -5107,13 +5081,13 @@
         "stats",
         "stats4"
       ],
-      "Hash": "3f8842f77e1f23bcfa79491aa2f02b11"
+      "Hash": "4f2aa7deaa28d9b1643c2eb07e515a93"
     },
     "rstatix": {
       "Package": "rstatix",
       "Version": "0.7.2",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "broom",
@@ -5143,7 +5117,7 @@
       "Package": "rsvd",
       "Version": "1.0.5",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "Matrix",
         "R"
@@ -5192,26 +5166,31 @@
       "RemoteUsername": "CUAnschutzBDC",
       "RemoteRepo": "scAnalysisR",
       "RemoteRef": "main",
-      "RemoteSha": "deb569b895e9e6c65e0a8f1e7743cc753b675146",
+      "RemoteSha": "9e6345ff93a9bbe6bf213c70ad9613774534eb85",
       "Requirements": [
         "Matrix",
         "R",
         "RColorBrewer",
         "Seurat",
-        "biomaRt",
+        "dplyr",
+        "ggplot2",
         "gridExtra",
+        "magrittr",
         "openxlsx",
         "pheatmap",
-        "tidyverse",
+        "stats",
+        "stringr",
+        "tibble",
+        "tidyr",
         "viridis"
       ],
-      "Hash": "0adf5415f64814cca61b10dc68a02530"
+      "Hash": "4da3833b3dbce1edd0c332c441be6add"
     },
     "scales": {
       "Package": "scales",
       "Version": "1.3.0",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "R6",
@@ -5229,7 +5208,7 @@
     },
     "scater": {
       "Package": "scater",
-      "Version": "1.32.0",
+      "Version": "1.32.1",
       "Source": "Repository",
       "Repository": "https://bioconductor.org/packages/3.19/bioc",
       "Requirements": [
@@ -5260,7 +5239,7 @@
         "uwot",
         "viridis"
       ],
-      "Hash": "4a6eb8ab8a2b926fe67cf83aa731a3df"
+      "Hash": "f2ec5194355479e5ffdb214bda0d94e8"
     },
     "scattermore": {
       "Package": "scattermore",
@@ -5328,7 +5307,7 @@
       "Package": "scuttle",
       "Version": "1.14.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "BiocGenerics",
         "BiocParallel",
@@ -5349,7 +5328,7 @@
     },
     "segmented": {
       "Package": "segmented",
-      "Version": "2.1-0",
+      "Version": "2.1-2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5357,7 +5336,7 @@
         "R",
         "nlme"
       ],
-      "Hash": "c25459f92b3c69c10d842b75e3960dd5"
+      "Hash": "afe75243aae06289eb4c1f4cb25aa702"
     },
     "selectr": {
       "Package": "selectr",
@@ -5376,7 +5355,7 @@
       "Package": "seqinr",
       "Version": "4.2-36",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "ade4",
@@ -5388,7 +5367,7 @@
       "Package": "shape",
       "Version": "1.4.6.1",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "grDevices",
@@ -5497,7 +5476,7 @@
       "RemoteUsername": "immunogenomics",
       "RemoteRepo": "singlecellmethods",
       "RemoteRef": "master",
-      "RemoteSha": "58ca323b336a24c8b13b8dfbbbd3516fd89bc845",
+      "RemoteSha": "384d6ab63b594babbcb1ae3629e37dc606236954",
       "Requirements": [
         "R",
         "Rcpp",
@@ -5507,7 +5486,7 @@
         "tibble",
         "tidyr"
       ],
-      "Hash": "0408cc493c25fec84f9c7f497000abeb"
+      "Hash": "7d1bfb2b2aad548ea08edf843f49eb64"
     },
     "sitmo": {
       "Package": "sitmo",
@@ -5524,7 +5503,7 @@
       "Package": "snow",
       "Version": "0.4-4",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "utils"
@@ -5545,7 +5524,7 @@
       "Package": "sp",
       "Version": "2.1-4",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "grDevices",
@@ -5576,7 +5555,7 @@
       "Package": "sparseMatrixStats",
       "Version": "1.16.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "Matrix",
         "MatrixGenerics",
@@ -5588,7 +5567,7 @@
     },
     "spatstat.data": {
       "Package": "spatstat.data",
-      "Version": "3.0-4",
+      "Version": "3.1-2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5596,11 +5575,11 @@
         "R",
         "spatstat.utils"
       ],
-      "Hash": "114a35341cb4955e1b8d30e28ec356c6"
+      "Hash": "69781a4d1dd8d1575d24b8b133e1e09f"
     },
     "spatstat.explore": {
       "Package": "spatstat.explore",
-      "Version": "3.2-7",
+      "Version": "3.3-2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5616,15 +5595,16 @@
         "spatstat.geom",
         "spatstat.random",
         "spatstat.sparse",
+        "spatstat.univar",
         "spatstat.utils",
         "stats",
         "utils"
       ],
-      "Hash": "b590c5d278d0606d53278afac666ad60"
+      "Hash": "577c69081801c75ccb73c3208b387a44"
     },
     "spatstat.geom": {
       "Package": "spatstat.geom",
-      "Version": "3.2-9",
+      "Version": "3.3-2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5635,15 +5615,16 @@
         "methods",
         "polyclip",
         "spatstat.data",
+        "spatstat.univar",
         "spatstat.utils",
         "stats",
         "utils"
       ],
-      "Hash": "96b9f23da42d16660aa6d136ad99cf5f"
+      "Hash": "9e8f1f54eb492b1af425b1206220a278"
     },
     "spatstat.random": {
       "Package": "spatstat.random",
-      "Version": "3.2-3",
+      "Version": "3.3-1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5652,15 +5633,16 @@
         "methods",
         "spatstat.data",
         "spatstat.geom",
+        "spatstat.univar",
         "spatstat.utils",
         "stats",
         "utils"
       ],
-      "Hash": "01aff260c49550e820a47d97e566af6a"
+      "Hash": "73b89da6fe26aa529564a8dbb5ebbc8a"
     },
     "spatstat.sparse": {
       "Package": "spatstat.sparse",
-      "Version": "3.0-3",
+      "Version": "3.1-0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5673,11 +5655,23 @@
         "tensor",
         "utils"
       ],
-      "Hash": "1daaecefd754bb259a5ad5ce95a2cdcc"
+      "Hash": "3a0f41a2a77847f2bc1a909160cace56"
+    },
+    "spatstat.univar": {
+      "Package": "spatstat.univar",
+      "Version": "3.0-1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "spatstat.utils",
+        "stats"
+      ],
+      "Hash": "253ee46f208ea40a65cb77c25c9374bd"
     },
     "spatstat.utils": {
       "Package": "spatstat.utils",
-      "Version": "3.0-4",
+      "Version": "3.1-0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5688,7 +5682,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "81d929f43f8532c1f8180a105449d414"
+      "Hash": "d580c24751e31aae523216b214a008dd"
     },
     "splitstackshape": {
       "Package": "splitstackshape",
@@ -5705,7 +5699,7 @@
       "Package": "statmod",
       "Version": "1.5.0",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "graphics",
@@ -5756,7 +5750,7 @@
     },
     "survival": {
       "Package": "survival",
-      "Version": "3.6-4",
+      "Version": "3.7-0",
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
@@ -5768,7 +5762,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "e6e3071f471513e4b85f98ca041303c7"
+      "Hash": "5aaa9cbaf4aba20f8e06fdea1850a398"
     },
     "sys": {
       "Package": "sys",
@@ -5786,14 +5780,15 @@
     },
     "systemfonts": {
       "Package": "systemfonts",
-      "Version": "1.0.6",
+      "Version": "1.1.0",
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "R",
-        "cpp11"
+        "cpp11",
+        "lifecycle"
       ],
-      "Hash": "6d538cff441f0f1f36db2209ac7495ac"
+      "Hash": "213b6b8ed5afbf934843e6c3b090d418"
     },
     "tensor": {
       "Package": "tensor",
@@ -5802,46 +5797,18 @@
       "Repository": "CRAN",
       "Hash": "25cfab6cf405c15bccf7e69ec39df090"
     },
-    "testthat": {
-      "Package": "testthat",
-      "Version": "3.2.1.1",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Requirements": [
-        "R",
-        "R6",
-        "brio",
-        "callr",
-        "cli",
-        "desc",
-        "digest",
-        "evaluate",
-        "jsonlite",
-        "lifecycle",
-        "magrittr",
-        "methods",
-        "pkgload",
-        "praise",
-        "processx",
-        "ps",
-        "rlang",
-        "utils",
-        "waldo",
-        "withr"
-      ],
-      "Hash": "3f6e7e5e2220856ff865e4834766bf2b"
-    },
     "textshaping": {
       "Package": "textshaping",
-      "Version": "0.3.7",
+      "Version": "0.4.0",
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "R",
         "cpp11",
+        "lifecycle",
         "systemfonts"
       ],
-      "Hash": "997aac9ad649e0ef3b97f96cddd5622b"
+      "Hash": "5142f8bc78ed3d819d26461b641627ce"
     },
     "tibble": {
       "Package": "tibble",
@@ -5889,7 +5856,7 @@
       "Package": "tidyr",
       "Version": "1.3.1",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "cli",
@@ -5912,7 +5879,7 @@
       "Package": "tidyselect",
       "Version": "1.2.1",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "cli",
@@ -5928,7 +5895,7 @@
       "Package": "tidytree",
       "Version": "0.4.6",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "ape",
@@ -6037,7 +6004,7 @@
       "Package": "treeio",
       "Version": "1.28.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "ape",
@@ -6073,7 +6040,7 @@
       "Package": "tzdb",
       "Version": "0.4.0",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "cpp11"
@@ -6092,13 +6059,13 @@
     },
     "uuid": {
       "Package": "uuid",
-      "Version": "1.2-0",
+      "Version": "1.2-1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
-      "Hash": "303c19bfd970bece872f93a824e323d9"
+      "Hash": "34e965e62a41fcafb1ca60e9b142085b"
     },
     "uwot": {
       "Package": "uwot",
@@ -6122,7 +6089,7 @@
       "Package": "variancePartition",
       "Version": "1.34.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "Biobase",
         "BiocParallel",
@@ -6172,7 +6139,7 @@
       "Package": "vipor",
       "Version": "0.4.7",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "graphics",
@@ -6197,7 +6164,7 @@
       "Package": "viridisLite",
       "Version": "0.4.2",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R"
       ],
@@ -6207,7 +6174,7 @@
       "Package": "vroom",
       "Version": "1.6.5",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Requirements": [
         "R",
         "bit64",
@@ -6229,24 +6196,6 @@
       ],
       "Hash": "390f9315bc0025be03012054103d227c"
     },
-    "waldo": {
-      "Package": "waldo",
-      "Version": "0.5.2",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Requirements": [
-        "R",
-        "cli",
-        "diffobj",
-        "fansi",
-        "glue",
-        "methods",
-        "rematch2",
-        "rlang",
-        "tibble"
-      ],
-      "Hash": "c7d3fd6d29ab077cbac8f0e2751449e6"
-    },
     "withr": {
       "Package": "withr",
       "Version": "3.0.0",
@@ -6261,7 +6210,7 @@
     },
     "xfun": {
       "Package": "xfun",
-      "Version": "0.43",
+      "Version": "0.45",
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
@@ -6269,7 +6218,7 @@
         "stats",
         "tools"
       ],
-      "Hash": "ab6371d8653ce5f2f9290f4ec7b42a8e"
+      "Hash": "ca59c87fe305b16a9141a5874c3a7889"
     },
     "xml2": {
       "Package": "xml2",
@@ -6305,20 +6254,18 @@
     },
     "yulab.utils": {
       "Package": "yulab.utils",
-      "Version": "0.1.4",
+      "Version": "0.1.7",
       "Source": "Repository",
-      "Repository": "BioCcontainers",
+      "Repository": "CRAN",
       "Requirements": [
         "cli",
         "digest",
         "fs",
-        "memoise",
         "rlang",
-        "stats",
         "tools",
         "utils"
       ],
-      "Hash": "60ee2aaa179dc282e9fa7367bad76e89"
+      "Hash": "367554cd9602e69616660580c820b3bf"
     },
     "zip": {
       "Package": "zip",
@@ -6331,7 +6278,7 @@
       "Package": "zlibbioc",
       "Version": "1.50.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/bioc",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
       "Hash": "3db02e3c460e1c852365df117a2b441b"
     },
     "zoo": {

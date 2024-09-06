@@ -25,7 +25,6 @@ RUN /opt/conda/bin/conda config --add channels defaults && \
     conda clean -afy
     
 # Install R packages with renv
-#RUN R -e "install.packages('remotes', repos = c(CRAN = 'https://cloud.r-project.org'))"
 RUN R -e "install.packages('renv', version = '${RENV_VERSION}')"
 
 

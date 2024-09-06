@@ -1,3 +1,5 @@
+# Note Rhtslib is often an issue, renv::install("bioc::Rhtslib", type = "binary")
+# most recently worked
 library(tidyverse)
 library(BiocManager)
 library(Seurat)
@@ -22,6 +24,7 @@ library(LaCroixColoR) # johannesbjork/LaCroixColoR
 library(rmarkdown)
 library(SingleCellExperiment)
 library(MetBrewer) # BlakeRMills/MetBrewer
+library(MoMAColors) #BlakeRMills/MoMAColors
 library(SignacX)
 library(djvdj)
 library(markdown)
