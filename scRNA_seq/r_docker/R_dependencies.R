@@ -24,7 +24,7 @@ library(LaCroixColoR) # johannesbjork/LaCroixColoR
 library(rmarkdown)
 library(SingleCellExperiment)
 library(MetBrewer) # BlakeRMills/MetBrewer
-library(MoMAColors) #BlakeRMills/MoMAColors
+library(MoMAColors) # BlakeRMills/MoMAColors
 library(SignacX)
 library(djvdj)
 library(markdown)
