@@ -1741,6 +1741,25 @@
       ],
       "Hash": "40415719b5a479b87949f3aa0aee737c"
     },
+    "bluster": {
+      "Package": "bluster",
+      "Version": "1.14.0",
+      "Source": "Repository",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
+      "Requirements": [
+        "BiocNeighbors",
+        "BiocParallel",
+        "Matrix",
+        "Rcpp",
+        "S4Vectors",
+        "cluster",
+        "igraph",
+        "methods",
+        "stats",
+        "utils"
+      ],
+      "Hash": "ed9597168d850071aa9abbbef7be7204"
+    },
     "boot": {
       "Package": "boot",
       "Version": "1.3-30",
@@ -3208,8 +3227,8 @@
     "glmGamPoi": {
       "Package": "glmGamPoi",
       "Version": "1.16.0",
-      "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
+      "Source": "Bioconductor",
+      "Repository": "Bioconductor 3.19",
       "Requirements": [
         "BiocGenerics",
         "DelayedArray",
@@ -4090,6 +4109,16 @@
         "rlang"
       ],
       "Hash": "e2817ccf4a065c5d9d7f2cfbe7c1d78c"
+    },
+    "metapod": {
+      "Package": "metapod",
+      "Version": "1.12.0",
+      "Source": "Repository",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
+      "Requirements": [
+        "Rcpp"
+      ],
+      "Hash": "026552a86c3aa0d92d4d8b12d80010cc"
     },
     "mgcv": {
       "Package": "mgcv",
@@ -5302,6 +5331,38 @@
         "tidyr"
       ],
       "Hash": "ba72095c3c2cbaed2b925c63ee944cfa"
+    },
+    "scran": {
+      "Package": "scran",
+      "Version": "1.32.0",
+      "Source": "Repository",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
+      "Requirements": [
+        "BH",
+        "BiocGenerics",
+        "BiocParallel",
+        "BiocSingular",
+        "DelayedArray",
+        "DelayedMatrixStats",
+        "Matrix",
+        "Rcpp",
+        "S4Vectors",
+        "SingleCellExperiment",
+        "SummarizedExperiment",
+        "beachmat",
+        "bluster",
+        "dqrng",
+        "edgeR",
+        "igraph",
+        "limma",
+        "metapod",
+        "methods",
+        "scuttle",
+        "statmod",
+        "stats",
+        "utils"
+      ],
+      "Hash": "5b11173a6b49f06dda0db31e80caa561"
     },
     "sctransform": {
       "Package": "sctransform",
