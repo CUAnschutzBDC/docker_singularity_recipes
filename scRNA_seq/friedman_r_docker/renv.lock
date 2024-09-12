@@ -1723,6 +1723,28 @@
       ],
       "Hash": "40415719b5a479b87949f3aa0aee737c"
     },
+    "bluster": {
+      "Package": "bluster",
+      "Version": "1.8.0",
+      "Source": "Bioconductor",
+      "git_url": "https://git.bioconductor.org/packages/bluster",
+      "git_branch": "RELEASE_3_16",
+      "git_last_commit": "156115c",
+      "git_last_commit_date": "2022-11-01",
+      "Requirements": [
+        "BiocNeighbors",
+        "BiocParallel",
+        "Matrix",
+        "Rcpp",
+        "S4Vectors",
+        "cluster",
+        "igraph",
+        "methods",
+        "stats",
+        "utils"
+      ],
+      "Hash": "5c698967bd2dda8f96e33333c28170e1"
+    },
     "boot": {
       "Package": "boot",
       "Version": "1.3-28.1",
@@ -2204,14 +2226,17 @@
       "Requirements": [
         "DropletUtils",
         "Matrix",
+        "R",
+        "RColorBrewer",
         "Seurat",
-        "dplyr",
+        "SeuratObject",
         "ggplot2",
         "ggrepel",
         "grDevices",
-        "scAnalysisR"
+        "gridExtra",
+        "pbapply"
       ],
-      "Hash": "d057febdc73103fa1aa6c31a3a5736d5"
+      "Hash": "12846d091c2843141f857b70fb57efbd"
     },
     "data.table": {
       "Package": "data.table",
@@ -3931,6 +3956,19 @@
       ],
       "Hash": "e2817ccf4a065c5d9d7f2cfbe7c1d78c"
     },
+    "metapod": {
+      "Package": "metapod",
+      "Version": "1.6.0",
+      "Source": "Bioconductor",
+      "git_url": "https://git.bioconductor.org/packages/metapod",
+      "git_branch": "RELEASE_3_16",
+      "git_last_commit": "cfeaa95",
+      "git_last_commit_date": "2022-11-01",
+      "Requirements": [
+        "Rcpp"
+      ],
+      "Hash": "11e50591534d0c37308c8ddb56bf0ae0"
+    },
     "mgcv": {
       "Package": "mgcv",
       "Version": "1.8-42",
@@ -5155,6 +5193,7 @@
       "Remotes": "immunogenomics/harmony",
       "Remotes": "immunogenomics/harmony",
       "Remotes": "immunogenomics/harmony",
+      "Remotes": "immunogenomics/harmony",
       "Requirements": [
         "MLmetrics",
         "SeuratObject",
@@ -5171,7 +5210,7 @@
         "pbapply",
         "stats"
       ],
-      "Hash": "707f7f6aa52ce09b17488569fb079add"
+      "Hash": "657e92030b0e0c8d1d403510337836a5"
     },
     "scales": {
       "Package": "scales",
@@ -5244,6 +5283,41 @@
         "scales"
       ],
       "Hash": "77ef398f338597b86a3d6853c585ce38"
+    },
+    "scran": {
+      "Package": "scran",
+      "Version": "1.26.2",
+      "Source": "Bioconductor",
+      "git_url": "https://git.bioconductor.org/packages/scran",
+      "git_branch": "RELEASE_3_16",
+      "git_last_commit": "0cdaef6",
+      "git_last_commit_date": "2023-01-19",
+      "Requirements": [
+        "BH",
+        "BiocGenerics",
+        "BiocParallel",
+        "BiocSingular",
+        "DelayedArray",
+        "DelayedMatrixStats",
+        "Matrix",
+        "Rcpp",
+        "S4Vectors",
+        "SingleCellExperiment",
+        "SummarizedExperiment",
+        "beachmat",
+        "bluster",
+        "dqrng",
+        "edgeR",
+        "igraph",
+        "limma",
+        "metapod",
+        "methods",
+        "scuttle",
+        "statmod",
+        "stats",
+        "utils"
+      ],
+      "Hash": "ab708ab1be42d035e6d8ef12b13ec4c9"
     },
     "sctransform": {
       "Package": "sctransform",
@@ -5629,6 +5703,18 @@
         "utils"
       ],
       "Hash": "709f446323db399458f7caaef8dcdf95"
+    },
+    "statmod": {
+      "Package": "statmod",
+      "Version": "1.5.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "R",
+        "graphics",
+        "stats"
+      ],
+      "Hash": "26e158d12052c279bdd4ba858b80fb1f"
     },
     "stringi": {
       "Package": "stringi",
