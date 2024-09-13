@@ -1744,8 +1744,8 @@
     "bluster": {
       "Package": "bluster",
       "Version": "1.14.0",
-      "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
+      "Source": "Bioconductor",
+      "Repository": "Bioconductor 3.19",
       "Requirements": [
         "BiocNeighbors",
         "BiocParallel",
@@ -4113,8 +4113,8 @@
     "metapod": {
       "Package": "metapod",
       "Version": "1.12.0",
-      "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
+      "Source": "Bioconductor",
+      "Repository": "Bioconductor 3.19",
       "Requirements": [
         "Rcpp"
       ],
@@ -5219,7 +5219,7 @@
       "RemoteUsername": "CUAnschutzBDC",
       "RemoteRepo": "scAnalysisR",
       "RemoteRef": "main",
-      "RemoteSha": "953fcbb8698985aa763beca05b146f09591e544d",
+      "RemoteSha": "357669006f694c74b45c20dcd2124b4efdd23185",
       "Requirements": [
         "Matrix",
         "R",
@@ -5237,7 +5237,7 @@
         "tidyr",
         "viridis"
       ],
-      "Hash": "f688bc2f800a630c396435b0146592cf"
+      "Hash": "717ad5f55548189e947fea356a474a8d"
     },
     "scales": {
       "Package": "scales",
@@ -5335,8 +5335,8 @@
     "scran": {
       "Package": "scran",
       "Version": "1.32.0",
-      "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
+      "Source": "Bioconductor",
+      "Repository": "Bioconductor 3.19",
       "Requirements": [
         "BH",
         "BiocGenerics",
