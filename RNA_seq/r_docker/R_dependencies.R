@@ -25,3 +25,4 @@ library(limma)
 library(edgeR)
 library(ggraph)
 library(ggdendro)
+library(PLIER) # "wgmao/PLIER"
