@@ -678,6 +678,27 @@
       ],
       "Hash": "2288423bb0f20a457800d7fc47f6aa54"
     },
+    "annotate": {
+      "Package": "annotate",
+      "Version": "1.82.0",
+      "Source": "Repository",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
+      "Requirements": [
+        "AnnotationDbi",
+        "Biobase",
+        "BiocGenerics",
+        "DBI",
+        "R",
+        "XML",
+        "graphics",
+        "httr",
+        "methods",
+        "stats",
+        "utils",
+        "xtable"
+      ],
+      "Hash": "659c0a3bfad51dc798e4b4eb0f2cdedc"
+    },
     "apeglm": {
       "Package": "apeglm",
       "Version": "1.26.1",
@@ -864,7 +885,7 @@
       "Package": "caTools",
       "Version": "1.18.3",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "bitops"
@@ -1267,7 +1288,7 @@
       "Package": "foreach",
       "Version": "1.5.2",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "codetools",
@@ -1341,6 +1362,24 @@
         "withr"
       ],
       "Hash": "fc0b272e5847c58cd5da9b20eedbd026"
+    },
+    "genefilter": {
+      "Package": "genefilter",
+      "Version": "1.86.0",
+      "Source": "Repository",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
+      "Requirements": [
+        "AnnotationDbi",
+        "Biobase",
+        "MatrixGenerics",
+        "annotate",
+        "grDevices",
+        "graphics",
+        "methods",
+        "stats",
+        "survival"
+      ],
+      "Hash": "a9954c24f8fbd7edce1dcf77c510b401"
     },
     "generics": {
       "Package": "generics",
@@ -1486,7 +1525,7 @@
       "Package": "glmnet",
       "Version": "4.1-8",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
+      "Repository": "RSPM",
       "Requirements": [
         "Matrix",
         "R",
@@ -1568,7 +1607,7 @@
       "Package": "gplots",
       "Version": "3.2.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
+      "Repository": "RSPM",
       "Requirements": [
         "KernSmooth",
         "R",
@@ -1662,7 +1701,7 @@
       "Package": "gtools",
       "Version": "3.9.5",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
+      "Repository": "RSPM",
       "Requirements": [
         "methods",
         "stats",
@@ -1853,7 +1892,7 @@
       "Package": "iterators",
       "Version": "1.0.14",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "utils"
@@ -2422,8 +2461,8 @@
     "qvalue": {
       "Package": "qvalue",
       "Version": "2.36.0",
-      "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
+      "Source": "Bioconductor",
+      "Repository": "Bioconductor 3.19",
       "Requirements": [
         "R",
         "ggplot2",
@@ -2545,7 +2584,7 @@
       "Package": "reshape2",
       "Version": "1.4.4",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "Rcpp",
@@ -2609,7 +2648,7 @@
       "Package": "rsvd",
       "Version": "1.0.5",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
+      "Repository": "RSPM",
       "Requirements": [
         "Matrix",
         "R"
@@ -2686,7 +2725,7 @@
       "Package": "shape",
       "Version": "1.4.6.1",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "grDevices",
@@ -2786,6 +2825,25 @@
         "utils"
       ],
       "Hash": "5aaa9cbaf4aba20f8e06fdea1850a398"
+    },
+    "sva": {
+      "Package": "sva",
+      "Version": "3.52.0",
+      "Source": "Repository",
+      "Repository": "https://bioconductor.org/packages/3.19/container-binaries/bioconductor_docker",
+      "Requirements": [
+        "BiocParallel",
+        "R",
+        "edgeR",
+        "genefilter",
+        "graphics",
+        "limma",
+        "matrixStats",
+        "mgcv",
+        "stats",
+        "utils"
+      ],
+      "Hash": "feabd0ba05b66ab807da4e66bbe69ea0"
     },
     "sys": {
       "Package": "sys",
@@ -3124,6 +3182,18 @@
         "rlang"
       ],
       "Hash": "1d0336142f4cd25d8d23cd3ba7a8fb61"
+    },
+    "xtable": {
+      "Package": "xtable",
+      "Version": "1.8-4",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "R",
+        "stats",
+        "utils"
+      ],
+      "Hash": "b8acdf8af494d9ec19ccb2481a9b11c2"
     },
     "yaml": {
       "Package": "yaml",
