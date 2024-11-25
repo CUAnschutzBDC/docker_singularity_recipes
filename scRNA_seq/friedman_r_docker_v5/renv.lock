@@ -1498,6 +1498,25 @@
       ],
       "Hash": "6cbe18ab157a28fe4d6f2bc55e12d234"
     },
+    "ape": {
+      "Package": "ape",
+      "Version": "5.8",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "Rcpp",
+        "digest",
+        "graphics",
+        "lattice",
+        "methods",
+        "nlme",
+        "parallel",
+        "stats",
+        "utils"
+      ],
+      "Hash": "16b5ff4dff0ead9ea955f62f794b1535"
+    },
     "askpass": {
       "Package": "askpass",
       "Version": "1.2.0",
