@@ -2181,7 +2181,7 @@
       "Version": "0.0.0.9000",
       "Source": "Local",
       "RemoteType": "local",
-      "RemoteUrl": "./dRopt_0.0.0.9000.tar.gz",
+      "RemoteUrl": "/home/rstudio/dRopt_0.0.0.9000.tar.gz",
       "Remotes": "CUAnschutzBDC/scAnalysisR",
       "Requirements": [
         "DropletUtils",
@@ -2196,7 +2196,7 @@
         "gridExtra",
         "pbapply"
       ],
-      "Hash": "12846d091c2843141f857b70fb57efbd"
+      "Hash": "267ae588fa3500fc5495da8a5be55fc8"
     },
     "data.table": {
       "Package": "data.table",
