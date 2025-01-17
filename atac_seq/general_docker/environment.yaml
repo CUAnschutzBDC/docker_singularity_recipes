@@ -9,7 +9,7 @@ dependencies:
   - pip=24.0
   - pysam=0.22.1
   - bowtie2=2.5.3
-  - macs2=2.2.9.1
+  - macs3=3.0.2
   - cutadapt=4.8
   - bbtools=37.62
   - fastqc=0.12.1
