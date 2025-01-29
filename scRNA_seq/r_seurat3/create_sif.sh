@@ -7,8 +7,8 @@
 #SBATCH --output=logs/sif.out
 #SBATCH --partition=amilan
 
-singularity_image=scrnaseq_r_v2.sif
-docker_image=scrnaseq_v2.tar
+singularity_image=seurat3.sif
+docker_image=seurat3.tar
 
 
 singularity build \

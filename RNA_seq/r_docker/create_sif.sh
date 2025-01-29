@@ -7,10 +7,10 @@
 #SBATCH --output=logs/sif.out
 #SBATCH --partition=amilan
 
-singularity_image=friedman_r_v5.sif
-docker_image=friedman_r_v5.tar
+singularity_image=rnaseq_r_v2.sif
+docker_image=rnaseq_r_v2.tar
 
-
+find ./ -type f -exec chmod 644 {} \;
 singularity build \
    --force \
    $singularity_image \

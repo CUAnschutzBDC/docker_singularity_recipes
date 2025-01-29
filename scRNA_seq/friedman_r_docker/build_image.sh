@@ -3,7 +3,7 @@
 #SBATCH --job-name=singluarlity
 #SBATCH --ntasks=1
 #SBATCH --time=03:00:00
-#SBATCH --mem=4gb
+#SBATCH --mem=3gb
 #SBATCH --output=logs/singularity_%J.out
 #SBATCH --partition=amilan
 #SBATCH --mail-type=ALL
@@ -16,8 +16,8 @@
 mkdir -p logs
 
 # Variables for the docker tar and the sif file to be created
-docker_tar=friedman_human_v4.tar
-singularity_image=friedman_human_v4.sif
+docker_tar=friedman_human_v4.1.tar
+singularity_image=friedman_human_v4.1.sif
 
 # Check if the image already exists
 if [ -e "$singularity_image" ]; then

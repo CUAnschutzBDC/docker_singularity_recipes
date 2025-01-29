@@ -1,4 +1,4 @@
-name: atac_seq
+name: human
 
 channels:
   - conda-forge
@@ -9,10 +9,6 @@ dependencies:
   - pip=24.0
   - pysam=0.22.1
   - bowtie2=2.5.3
-  - macs2=2.2.9.1
-  - cutadapt=4.8
-  - bbtools=37.62
-  - fastqc=0.12.1
   - samtools=1.20
-  - subread=2.0.6
   - bedtools=2.31.1
+  - fastq-screen=0.13.0
