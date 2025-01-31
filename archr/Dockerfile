@@ -1,5 +1,5 @@
 # Get base image
-FROM bioconductor/bioconductor_docker:RELEASE_3_20
+FROM bioconductor/bioconductor_docker:RELEASE_3_19
 
 # environment
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
@@ -29,6 +29,6 @@ RUN R -e "install.packages('renv', version = '${RENV_VERSION}')"
 
 
 WORKDIR /home/rstudio
-COPY renv.lock renv.lock
+#COPY renv.lock renv.lock
 COPY R_dependencies.R R_dependencies.R
-RUN R -e "renv::restore()"
+#RUN R -e "renv::restore()"

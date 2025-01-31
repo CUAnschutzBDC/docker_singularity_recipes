@@ -7,3 +7,4 @@ channels:
 dependencies:
   - pip=24.0
   - pysam=0.22.1
+  - macs3=3.0.2
