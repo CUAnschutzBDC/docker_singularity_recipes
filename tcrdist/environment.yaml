@@ -1,0 +1,9 @@
+name: human
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - agbiome
+dependencies:
+  - pip=24.0
