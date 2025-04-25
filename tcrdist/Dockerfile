@@ -24,3 +24,5 @@ RUN sudo apt update
 RUN sudo apt install -y zip
 RUN sudo apt install -y unzip
 RUN pip install tcrdist3
+RUN apt-get update && apt-get install -y \
+  curl
