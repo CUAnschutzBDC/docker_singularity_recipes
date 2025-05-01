@@ -1,27 +1,44 @@
 # Get base image
-FROM continuumio/miniconda3
+FROM ubuntu:rolling
 
-# environment
-ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
-ENV PATH $PATH:/opt/conda/bin
+# Combine apt operations to reduce image layers and cleanup in the same layer
+# to minimize size
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+    wget \
+    curl \
+    sudo \
+    zip \
+    unzip \
+    ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
 
-RUN  apt-get update \
-  && apt-get install -y wget \
-  && apt-get -y install sudo \
-  && rm -rf /var/lib/apt/lists/* 
+# Setup a non-root user (best practice for security)
+RUN useradd -ms /bin/bash user && \
+    echo "user ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/user
 
-COPY environment.yaml .
-RUN /opt/conda/bin/conda config --add channels defaults && \
-    /opt/conda/bin/conda config --add channels bioconda && \
-    /opt/conda/bin/conda config --add channels conda-forge && \
-    /opt/conda/bin/conda install -n base conda-libmamba-solver && \
-    /opt/conda/bin/conda config --set solver libmamba && \
-    /opt/conda/bin/conda install -n base python=3.10 && \
-    /opt/conda/bin/conda env update -n base -f environment.yaml && \
-    conda clean -afy
+# Switch to non-root user
+USER user
+WORKDIR /home/user
 
-RUN /opt/conda/bin/conda install --force-reinstall java-jdk
+# Install Pixi
+RUN curl -fsSL https://pixi.sh/install.sh | bash && \
+    echo 'export PATH="$HOME/.pixi/bin:$PATH"' >> ~/.bashrc
 
-RUN sudo apt update
-RUN sudo apt install -y zip
-RUN sudo apt install -y unzip
+# Make sure pixi is in the PATH
+ENV PATH="/home/user/.pixi/bin:${PATH}"
+
+# Create a pixi.toml file for your project
+RUN mkdir -p /home/user/project
+WORKDIR /home/user/project
+RUN pixi init rnaseq
+
+
+# Copy the pixi.toml file
+COPY --chown=user:user pixi.toml /home/user/project/pixi.toml
+
+# Install all dependencies
+RUN pixi install
+
+# Set up the entrypoint to use pixi environments
+ENTRYPOINT ["/bin/bash", "-c", "source ~/.bashrc && pixi shell"]
