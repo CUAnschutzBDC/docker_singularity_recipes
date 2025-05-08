@@ -10,6 +10,7 @@ You can directly build this package on docker with the provided lock file by bui
 docker build -t fastq_screen:v1 ./
 ```
 
+## Generate lock file (optional and unnecessary if the lock file exists)
 If the lock file isn't present and you would like to generate it, first run the build but stop before the `pixi install` step (comment out all lines).
 
 ```bash
@@ -34,9 +35,20 @@ This will install the packages and generate a lock file. Copy the lock file to y
 cp pixi.lock fastq_screen
 ```
 
-Now exit out of the image
+Now exit out of the image, uncomment the full docker file, and rebuild
 
-## Set up on Singularity
+```bash
+exit
+docker build -t fastq_screen:v1 ./
+```
+
+## Set up on Singularity/Apptainer
+To build the singularity image, copy the `Singularity` file to your server. Update this with the appropriate version of the docker image. Update the `create_sif.sh` script to your specifications and submit the job. An image will generated that has already run the `shell_hook.sh` script and should work out of the box.
+
+If you don't want to submit the job, you can run in your terminal
+```bash
+apptainer build fastq_screen_v1.sif Singularity
+```
 
 ## Set up once the image is built
 Once this is built, within the docker image run
