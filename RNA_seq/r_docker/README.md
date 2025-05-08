@@ -1,6 +1,6 @@
 # RNA-seq R docker
 
-This directory conatins the recipe to build the docker container for R analysis of ATAC-seq and ChIP-seq data. This uses the bioconductor docker as a base so you can port to using `Rstudio` in the browser.
+This directory contains the recipe to build the docker container for R analysis of RNA-seq data. This uses the bioconductor docker as a base so you can port to using `Rstudio` in the browser.
 
 ## Downloading the image
 To download, the image, you can simply run
