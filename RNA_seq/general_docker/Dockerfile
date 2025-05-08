@@ -1,17 +1,5 @@
 FROM ghcr.io/prefix-dev/pixi:0.40.0 AS build
 
-# Combine apt operations to reduce image layers and cleanup in the same layer
-# to minimize size
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends \
-    wget \
-    curl \
-    sudo \
-    zip \
-    unzip \
-    ca-certificates \
-    && rm -rf /var/lib/apt/lists/*
-
 # copy source code, pixi.toml and pixi.lock to the container
 COPY . /app
 WORKDIR /app
@@ -25,9 +13,15 @@ RUN echo 'exec "$@"' >> /shell-hook.sh
 
 FROM ubuntu:24.04 AS production
 
-# Install minimal runtime dependencies if needed
+# Combine apt operations to reduce image layers and cleanup in the same layer
+# to minimize size
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
+    wget \
+    curl \
+    sudo \
+    zip \
+    unzip \
     ca-certificates \
     && rm -rf /var/lib/apt/lists/*
 
