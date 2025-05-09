@@ -7,4 +7,4 @@
 #SBATCH --output=logs/sif.out
 #SBATCH --partition=amilan
 
-apptainer build rnaseq_general_v2.sif Singularity
+apptainer build atac_chip_v1.sif Singularity
