@@ -1,6 +1,14 @@
 # General docker for RNA-seq analysis
 This image contains `STAR`, `featureCounts`, `fastqc`, `cutadapt`, and `bbtools` used for RNA-seq analysis. All packages and versions can be found within the `pixi.toml` and `pixi.lock` files.
 
+## Downloading the image
+To download, the image, you can simply run
+
+```bash
+docker pull kwellswrasman/rnaseq_general:v2
+```
+
+
 ## Set up docker image
 
 You can directly build this package on docker with the provided lock file by building from this directory.
