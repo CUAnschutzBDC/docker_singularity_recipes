@@ -7,4 +7,4 @@
 #SBATCH --output=logs/sif.out
 #SBATCH --partition=amilan
 
-singularity pull --name scrna_seq_r_v3.sif docker://kwellswrasman/scrna_seq_r:v3
+singularity pull --name atac_chip_r_v1.sif docker://kwellswrasman/atac_chip_r:v1
