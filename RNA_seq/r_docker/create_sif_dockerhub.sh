@@ -7,4 +7,4 @@
 #SBATCH --output=logs/sif.out
 #SBATCH --partition=amilan
 
-singularity pull --name picard_3.4.0.sif docker://kwellswrasman/picard:3.4.0
+singularity pull --name rnaseq_rv2_dockerhub.sif docker://kwellswrasman/rna_seq_r:v2

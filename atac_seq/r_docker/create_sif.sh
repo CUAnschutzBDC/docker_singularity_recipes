@@ -7,4 +7,4 @@
 #SBATCH --output=logs/sif.out
 #SBATCH --partition=amilan
 
-singularity pull --name atac_chip_r_v1.sif docker://kwellswrasman/atac_chip_r:v1
+singularity pull --name atac_chip_r_v1_dockerhub.sif docker://kwellswrasman/atac_chip_r:v1

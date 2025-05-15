@@ -7,4 +7,4 @@
 #SBATCH --output=logs/sif.out
 #SBATCH --partition=amilan
 
-apptainer build fastq_screen_v1.sif Singularity
+apptainer build fastq_screen_v1.2.sif Singularity
