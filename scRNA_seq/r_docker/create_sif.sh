@@ -2,16 +2,9 @@
 
 #SBATCH --job-name=sif
 #SBATCH --ntasks=1
-#SBATCH --time=04:00:00
-#SBATCH --mem=3gb
+#SBATCH --time=12:00:00
+#SBATCH --mem=6gb
 #SBATCH --output=logs/sif.out
 #SBATCH --partition=amilan
 
-singularity_image=scrnaseq_r_v2.sif
-docker_image=scrnaseq_v2.tar
-
-
-singularity build \
-   --force \
-   $singularity_image \
-   docker-archive:$docker_image
+singularity pull --name atac_chip_r_v1.sif docker://kwellswrasman/atac_chip_r:v1
