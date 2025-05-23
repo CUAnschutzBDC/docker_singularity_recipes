@@ -1,0 +1,12 @@
+[workspace]
+name = "long_read"
+version = "0.1.0"
+description = "Bioinformatics environment"
+channels = ["conda-forge", "bioconda", "agbiome"]
+platforms = ["linux-64"]
+
+[dependencies]
+pip = "==24.0"
+pysam = "==0.22.1"
+ont-modkit = "==0.4.4"
+samtools = "==1.21"
