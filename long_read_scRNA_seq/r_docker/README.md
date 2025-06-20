@@ -72,7 +72,7 @@ docker run -it --mount type=bind,source="$(pwd)",target=/home/rstudio/r_docker s
 
 4. In this I started R and used `renv` to install packages. Any non-cran packages need to be installed manually using the full github path or `bioc::` for bioconductor packages. I then copy the lock file into the r_docker directory.
 
-```bash
+```R
 R
 
 > renv::init()
@@ -93,7 +93,7 @@ RUN R -e "renv::restore()"
 
 6. Rebuild the image
 ```bash
-docker build sc_long_read_r:v1 ./
+docker build -t sc_long_read_r:v1 ./
 ```
 
 ### Adding a package
@@ -108,7 +108,7 @@ docker run -it --mount type=bind,source="$(pwd)",target=/home/rstudio/r_docker s
 
 3. Start R and install your new packages with `renv`. Any non-cran packages need to be installed manually using the full github path or `bioc::` for bioconductor packages. I then copy the lock file into the r_docker directory.
 
-```bash
+```R
 R
 
 > renv::init()
@@ -123,5 +123,5 @@ exit
 
 4. Rebuild the image
 ```bash
-docker build sc_long_read_r:v1 ./
+docker build -t sc_long_read_r:v1 ./
 ```
