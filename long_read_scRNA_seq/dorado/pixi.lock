@@ -13,6 +13,8 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/c-ares-1.34.5-hb9d3cd8_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2025.4.26-hbd8a1cb_0.conda
       - conda: https://conda.anaconda.org/bioconda/linux-64/htslib-1.21-h566b1c6_1.tar.bz2
+      - conda: https://conda.anaconda.org/bioconda/linux-64/k8-1.2-he8db53b_6.tar.bz2
+      - conda: https://conda.anaconda.org/conda-forge/noarch/kernel-headers_linux-64-3.10.0-he073ed8_18.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/keyutils-1.6.1-h166bdaf_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/linux-64/krb5-1.21.3-h659f571_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/ld_impl_linux-64-2.43-h712a8e2_4.conda
@@ -35,6 +37,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libuuid-2.38.1-h0b41bf4_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libxcrypt-4.4.36-hd590300_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libzlib-1.3.1-hb9d3cd8_2.conda
+      - conda: https://conda.anaconda.org/bioconda/linux-64/minimap2-2.30-h577a1d6_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/linux-64/ncurses-6.5-h2d0b736_3.conda
       - conda: https://conda.anaconda.org/bioconda/linux-64/ont-modkit-0.4.4-hcdda2d0_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/linux-64/openssl-3.5.0-h7b32b05_1.conda
@@ -45,6 +48,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/readline-8.2-h8c095d6_2.conda
       - conda: https://conda.anaconda.org/bioconda/linux-64/samtools-1.21-h96c455f_1.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/noarch/setuptools-80.1.0-pyhff2d567_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/sysroot_linux-64-2.17-h0157908_18.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/tk-8.6.13-noxft_h4845f30_101.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/tzdata-2025b-h78e105d_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/wheel-0.45.1-pyhd8ed1ab_1.conda
@@ -53,8 +57,6 @@ packages:
 - conda: https://conda.anaconda.org/conda-forge/linux-64/_libgcc_mutex-0.1-conda_forge.tar.bz2
   sha256: fe51de6107f9edc7aa4f786a70f4a883943bc9d39b3bb7307c04c41410990726
   md5: d7c89558ba9fa0495403155b64376d81
-  arch: x86_64
-  platform: linux
   license: None
   size: 2562
   timestamp: 1578324546067
@@ -67,8 +69,6 @@ packages:
   - libgomp >=7.5.0
   constrains:
   - openmp_impl 9999
-  arch: x86_64
-  platform: linux
   license: BSD-3-Clause
   license_family: BSD
   size: 23621
@@ -79,8 +79,6 @@ packages:
   depends:
   - __glibc >=2.17,<3.0.a0
   - libgcc-ng >=12
-  arch: x86_64
-  platform: linux
   license: bzip2-1.0.6
   license_family: BSD
   size: 252783
@@ -91,8 +89,6 @@ packages:
   depends:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 206884
@@ -116,19 +112,39 @@ packages:
   - liblzma >=5.6.3,<6.0a0
   - libzlib >=1.3.1,<2.0a0
   - openssl >=3.4.0,<4.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 3181630
   timestamp: 1734145218913
+- conda: https://conda.anaconda.org/bioconda/linux-64/k8-1.2-he8db53b_6.tar.bz2
+  sha256: 35143205ef4684f417f047c649aea110e0ceb1d6891001511dbceb2dea08be3d
+  md5: 6c44663f234185cc54d7a90c4d7a555a
+  depends:
+  - __glibc >=2.17,<3.0.a0
+  - libgcc >=13
+  - libstdcxx >=13
+  - libzlib >=1.3.1,<2.0a0
+  - sysroot_linux-64 >=2.17
+  arch: x86_64
+  platform: linux
+  license: MIT
+  license_family: MIT
+  size: 7535090
+  timestamp: 1748942479223
+- conda: https://conda.anaconda.org/conda-forge/noarch/kernel-headers_linux-64-3.10.0-he073ed8_18.conda
+  sha256: a922841ad80bd7b222502e65c07ecb67e4176c4fa5b03678a005f39fcc98be4b
+  md5: ad8527bf134a90e1c9ed35fa0b64318c
+  constrains:
+  - sysroot_linux-64 ==2.17
+  license: LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later AND MPL-2.0
+  license_family: GPL
+  size: 943486
+  timestamp: 1729794504440
 - conda: https://conda.anaconda.org/conda-forge/linux-64/keyutils-1.6.1-h166bdaf_0.tar.bz2
   sha256: 150c05a6e538610ca7c43beb3a40d65c90537497a4f6a5f4d15ec0451b6f5ebb
   md5: 30186d27e2c9fa62b45fb1476b7200e3
   depends:
   - libgcc-ng >=10.3.0
-  arch: x86_64
-  platform: linux
   license: LGPL-2.1-or-later
   size: 117831
   timestamp: 1646151697040
@@ -142,8 +158,6 @@ packages:
   - libgcc-ng >=12
   - libstdcxx-ng >=12
   - openssl >=3.3.1,<4.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 1370023
@@ -155,8 +169,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   constrains:
   - binutils_impl_linux-64 2.43
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only
   license_family: GPL
   size: 671240
@@ -173,8 +185,6 @@ packages:
   - libzlib >=1.3.1,<2.0a0
   - openssl >=3.4.1,<4.0a0
   - zstd >=1.5.7,<1.6.0a0
-  arch: x86_64
-  platform: linux
   license: curl
   license_family: MIT
   size: 438088
@@ -185,8 +195,6 @@ packages:
   depends:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 72573
@@ -199,8 +207,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
   - ncurses >=6.5,<7.0a0
-  arch: x86_64
-  platform: linux
   license: BSD-2-Clause
   license_family: BSD
   size: 134676
@@ -210,8 +216,6 @@ packages:
   md5: 172bf1cd1ff8629f2b1179945ed45055
   depends:
   - libgcc-ng >=12
-  arch: x86_64
-  platform: linux
   license: BSD-2-Clause
   license_family: BSD
   size: 112766
@@ -224,8 +228,6 @@ packages:
   - libgcc >=13
   constrains:
   - expat 2.7.0.*
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 74427
@@ -236,8 +238,6 @@ packages:
   depends:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 57433
@@ -251,8 +251,6 @@ packages:
   constrains:
   - libgcc-ng ==15.1.0=*_2
   - libgomp 15.1.0 h767d61c_2
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only WITH GCC-exception-3.1
   license_family: GPL
   size: 829108
@@ -262,8 +260,6 @@ packages:
   md5: ddca86c7040dd0e73b2b69bd7833d225
   depends:
   - libgcc 15.1.0 h767d61c_2
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only WITH GCC-exception-3.1
   license_family: GPL
   size: 34586
@@ -273,8 +269,6 @@ packages:
   md5: fbe7d535ff9d3a168c148e07358cd5b1
   depends:
   - __glibc >=2.17,<3.0.a0
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only WITH GCC-exception-3.1
   license_family: GPL
   size: 452635
@@ -288,8 +282,6 @@ packages:
   constrains:
   - xz 5.8.1.*
   - xz ==5.8.1=*_1
-  arch: x86_64
-  platform: linux
   license: 0BSD
   size: 112845
   timestamp: 1746531470399
@@ -305,8 +297,6 @@ packages:
   - libstdcxx >=13
   - libzlib >=1.3.1,<2.0a0
   - openssl >=3.3.2,<4.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   license_family: MIT
   size: 647599
@@ -316,8 +306,6 @@ packages:
   md5: 30fd6e37fe21f86f4bd26d6ee73eeec7
   depends:
   - libgcc-ng >=12
-  arch: x86_64
-  platform: linux
   license: LGPL-2.1-only
   license_family: GPL
   size: 33408
@@ -329,8 +317,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
   - libzlib >=1.3.1,<2.0a0
-  arch: x86_64
-  platform: linux
   license: Unlicense
   size: 916313
   timestamp: 1746637007836
@@ -342,8 +328,6 @@ packages:
   - libgcc >=13
   - libzlib >=1.3.1,<2.0a0
   - openssl >=3.5.0,<4.0a0
-  arch: x86_64
-  platform: linux
   license: BSD-3-Clause
   license_family: BSD
   size: 304790
@@ -354,8 +338,6 @@ packages:
   depends:
   - __glibc >=2.17,<3.0.a0
   - libgcc 15.1.0 h767d61c_2
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only WITH GCC-exception-3.1
   license_family: GPL
   size: 3902355
@@ -365,8 +347,6 @@ packages:
   md5: 9d2072af184b5caa29492bf2344597bb
   depends:
   - libstdcxx 15.1.0 h8f9b012_2
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only WITH GCC-exception-3.1
   license_family: GPL
   size: 34647
@@ -376,8 +356,6 @@ packages:
   md5: 40b61aab5c7ba9ff276c41cfffe6b80b
   depends:
   - libgcc-ng >=12
-  arch: x86_64
-  platform: linux
   license: BSD-3-Clause
   license_family: BSD
   size: 33601
@@ -387,8 +365,6 @@ packages:
   md5: 5aa797f8787fe7a17d1b0821485b5adc
   depends:
   - libgcc-ng >=12
-  arch: x86_64
-  platform: linux
   license: LGPL-2.1-or-later
   size: 100393
   timestamp: 1702724383534
@@ -400,20 +376,29 @@ packages:
   - libgcc >=13
   constrains:
   - zlib 1.3.1 *_2
-  arch: x86_64
-  platform: linux
   license: Zlib
   license_family: Other
   size: 60963
   timestamp: 1727963148474
+- conda: https://conda.anaconda.org/bioconda/linux-64/minimap2-2.30-h577a1d6_0.tar.bz2
+  sha256: a82a861a2c0e5a01bbe73701dcc6af8ba3f1da430a9fa6c94ed53b5c4a7a2b55
+  md5: c90788b08f45337f68b717ee8fd10fea
+  depends:
+  - k8
+  - libgcc >=13
+  - libzlib >=1.3.1,<2.0a0
+  arch: x86_64
+  platform: linux
+  license: MIT
+  license_family: MIT
+  size: 1357974
+  timestamp: 1750025868795
 - conda: https://conda.anaconda.org/conda-forge/linux-64/ncurses-6.5-h2d0b736_3.conda
   sha256: 3fde293232fa3fca98635e1167de6b7c7fda83caf24b9d6c91ec9eefb4f4d586
   md5: 47e340acb35de30501a76c7c799c41d7
   depends:
   - __glibc >=2.17,<3.0.a0
   - libgcc >=13
-  arch: x86_64
-  platform: linux
   license: X11 AND BSD-3-Clause
   size: 891641
   timestamp: 1738195959188
@@ -426,8 +411,6 @@ packages:
   - libzlib >=1.3.1,<2.0a0
   constrains:
   - __glibc >=2.17
-  arch: x86_64
-  platform: linux
   license: Oxford Nanopore Technologies PLC. Public License Version 1.0
   license_family: PROPRIETARY
   size: 7431174
@@ -439,8 +422,6 @@ packages:
   - __glibc >=2.17,<3.0.a0
   - ca-certificates
   - libgcc >=13
-  arch: x86_64
-  platform: linux
   license: Apache-2.0
   license_family: Apache
   size: 3117410
@@ -469,8 +450,6 @@ packages:
   - openssl >=3.4.0,<4.0a0
   - python >=3.12,<3.13.0a0
   - python_abi 3.12.* *_cp312
-  arch: x86_64
-  platform: linux
   license: MIT
   size: 4609877
   timestamp: 1734304536165
@@ -497,8 +476,6 @@ packages:
   - tzdata
   constrains:
   - python_abi 3.12.* *_cp312
-  arch: x86_64
-  platform: linux
   license: Python-2.0
   size: 31279179
   timestamp: 1744325164633
@@ -518,8 +495,6 @@ packages:
   depends:
   - libgcc >=13
   - ncurses >=6.5,<7.0a0
-  arch: x86_64
-  platform: linux
   license: GPL-3.0-only
   license_family: GPL
   size: 282480
@@ -532,8 +507,6 @@ packages:
   - libgcc >=13
   - libzlib >=1.3.1,<2.0a0
   - ncurses >=6.5,<7.0a0
-  arch: x86_64
-  platform: linux
   license: MIT
   size: 487188
   timestamp: 1734249911773
@@ -546,14 +519,22 @@ packages:
   license_family: MIT
   size: 778484
   timestamp: 1746085063737
+- conda: https://conda.anaconda.org/conda-forge/noarch/sysroot_linux-64-2.17-h0157908_18.conda
+  sha256: 69ab5804bdd2e8e493d5709eebff382a72fab3e9af6adf93a237ccf8f7dbd624
+  md5: 460eba7851277ec1fd80a1a24080787a
+  depends:
+  - kernel-headers_linux-64 3.10.0 he073ed8_18
+  - tzdata
+  license: LGPL-2.0-or-later AND LGPL-2.0-or-later WITH exceptions AND GPL-2.0-or-later AND MPL-2.0
+  license_family: GPL
+  size: 15166921
+  timestamp: 1735290488259
 - conda: https://conda.anaconda.org/conda-forge/linux-64/tk-8.6.13-noxft_h4845f30_101.conda
   sha256: e0569c9caa68bf476bead1bed3d79650bb080b532c64a4af7d8ca286c08dea4e
   md5: d453b98d9c83e71da0741bb0ff4d76bc
   depends:
   - libgcc-ng >=12
   - libzlib >=1.2.13,<2.0.0a0
-  arch: x86_64
-  platform: linux
   license: TCL
   license_family: BSD
   size: 3318875
@@ -581,8 +562,6 @@ packages:
   - libgcc >=13
   - libstdcxx >=13
   - libzlib >=1.3.1,<2.0a0
-  arch: x86_64
-  platform: linux
   license: BSD-3-Clause
   license_family: BSD
   size: 567578

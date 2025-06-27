@@ -1,5 +1,5 @@
 # General docker for long read analysis
-This image contains `dorado v0.9.6` and `ont-modkit` used for analysis of nanopore data. All packages and versions can be found within the `pixi.toml` and `pixi.lock` files.
+This image contains `dorado v0.9.6`, `minimap2`, and `ont-modkit` used for analysis of nanopore data. All packages and versions can be found within the `pixi.toml` and `pixi.lock` files.
 
 ## Downloading the image
 To download, the image, you can simply run
