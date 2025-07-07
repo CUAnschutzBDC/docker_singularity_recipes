@@ -1,4 +1,4 @@
-# ATAC-seq and ChIP-seq R docker
+# single cellRNA-seq R docker
 
 This directory conatins the recipe to build the docker container for R analysis of ATAC-seq and ChIP-seq data. This uses the bioconductor docker as a base so you can port to using `Rstudio` in the browser.
 
