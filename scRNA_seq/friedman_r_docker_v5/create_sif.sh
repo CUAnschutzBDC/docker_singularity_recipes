@@ -2,16 +2,9 @@
 
 #SBATCH --job-name=sif
 #SBATCH --ntasks=1
-#SBATCH --time=04:00:00
+#SBATCH --time=12:00:00
 #SBATCH --mem=6gb
 #SBATCH --output=logs/sif.out
 #SBATCH --partition=amilan
 
-singularity_image=friedman_r_v5.sif
-docker_image=friedman_r_v5.tar
-
-
-singularity build \
-   --force \
-   $singularity_image \
-   docker-archive:$docker_image
+singularity pull --name sr_docker_dropt_v1.sif docker://kwellswrasman/r_docker_dropt:v1
