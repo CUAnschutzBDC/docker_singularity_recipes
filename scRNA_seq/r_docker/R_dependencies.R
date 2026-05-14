@@ -17,7 +17,7 @@ library(viridis)
 library(pathview)
 library(openxlsx)
 library(gprofiler2)
-library(singlecellmethods) # immunogenomics/singlecellmethods
+#library(singlecellmethods) # immunogenomics/singlecellmethods
 library(batchelor)
 library(knitr)
 library(LaCroixColoR) # johannesbjork/LaCroixColoR
