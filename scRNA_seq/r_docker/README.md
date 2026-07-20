@@ -6,14 +6,14 @@ This directory conatins the recipe to build the docker container for R analysis 
 To download, the image, you can simply run
 
 ```bash
-docker pull kwellswrasman/scrna_seq_r:v3
+docker pull kwellswrasman/scrna_seq_r:v6
 ```
 
 ## Converting to singularity
 
 To convert this image to singularity, simply run
 ```bash
-singularity pull --name scrna_seq_r_v3.sif docker://kwellswrasman/scrna_seq_r:v3
+singularity pull --name scrna_seq_r_v3.sif docker://kwellswrasman/scrna_seq_r:v6
 ```
 
 ## Using R studio
@@ -36,7 +36,7 @@ docker run \
 	-e PASSWORD=bioc \
 	-p 8787:8787 \
 	--mount type=bind,source="$(pwd)",target=/home/rstudio/rnaseq \
-	kwellswrasman/scrna_seq_r:v3
+	kwellswrasman/scrna_seq_r:v6
 ```
 
 More information on the base container is [here](https://bioconductor.org/help/docker/)
@@ -61,13 +61,13 @@ RUN R -e "renv::restore()"
 
 2. I then built the package without any R packages
 ```bash
-docker build scrna_seq_r:v3 ./
+docker build scrna_seq_r:v6 ./
 ```
 
 3. I next started an interactive shell
 
 ```bash
-docker run -it --mount type=bind,source="$(pwd)",target=/home/rstudio/r_docker scrna_seq_r:v3 sh
+docker run -it --mount type=bind,source="$(pwd)",target=/home/rstudio/r_docker scrna_seq_r:v6 sh
 ```
 
 4. In this I started R and used `renv` to install packages. Any non-cran packages need to be installed manually using the full github path or `bioc::` for bioconductor packages. I then copy the lock file into the r_docker directory.
@@ -93,7 +93,7 @@ RUN R -e "renv::restore()"
 
 6. Rebuild the image
 ```bash
-docker build scrna_seq_r:v3 ./
+docker build scrna_seq_r:v6 ./
 ```
 
 ### Adding a package
@@ -103,7 +103,7 @@ docker build scrna_seq_r:v3 ./
 2. Start an interactive shell in the docker container (this assumes it has been downloaded from dockerhub, see above)
 
 ```bash
-docker run -it --mount type=bind,source="$(pwd)",target=/home/rstudio/r_docker scrna_seq_r:v3 sh
+docker run -it --mount type=bind,source="$(pwd)",target=/home/rstudio/r_docker scrna_seq_r:v6 sh
 ```
 
 3. Start R and install your new packages with `renv`. Any non-cran packages need to be installed manually using the full github path or `bioc::` for bioconductor packages. I then copy the lock file into the r_docker directory.
@@ -123,5 +123,5 @@ exit
 
 4. Rebuild the image
 ```bash
-docker build scrna_seq_r:v3 ./
+docker build scrna_seq_r:v6 ./
 ```
