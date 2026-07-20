@@ -1,0 +1,70 @@
+renv::install(c(
+	"bioc::limma",
+	"bioc::Biostrings",
+	"bioc::GenomicAlignments",
+	"bioc::ggtree",
+	"bioc::pwalign",
+	"bioc::batchelor",
+	"bioc::biomaRt",
+	"bioc::clusterProfiler",
+	"bioc::clustifyr",
+	"bioc::ComplexHeatmap",
+	"bioc::DropletUtils",
+	"bioc::EMDomics",
+	"bioc::EnhancedVolcano",
+	"bioc::enrichplot",
+	"bioc::flowCore",
+	"bioc::flowStats",
+	"bioc::glmGamPoi",
+	"bioc::muscat",
+	"bioc::org.Hs.eg.db",
+	"bioc::pathview",
+	"bioc::scran",
+	"bioc::SingleCellExperiment"
+	))
+
+renv::install(c(
+	"rnabioco/djvdj",
+	"chris-mcginnis-ucsf/DoubletFinder",
+	"johannesbjork/LaCroixColoR",
+	"davidsjoberg/ggstream",
+	"BlakeRMills/MoMAColors",
+	"BlakeRMills/MetBrewer",
+	"immunogenomics/presto",
+	"CUAnschutzBDC/scAnalysisR",
+	"yezhengSTAT/ADTnorm"
+	))
+
+
+renv::install(c(
+	"alakazam",
+	"alluvial",
+	"clustree",
+	"cowplot",
+	"data.table",
+	"dowser",
+	"ggalluvial",
+	"dsb",
+	"ggrepel",
+	"ggridges",
+	"gprofiler2",
+	"harmony",
+	"here",
+	"markdown",
+	"mclust",
+	"openxlsx",
+	"pheatmap",
+	"qs2",
+	"Rspectra",
+	"scoper",
+	"Seurat",
+	"shazam",
+	"SignacX",
+	"splitstackshape",
+	"stringdist",
+	"tidyverse",
+	"viridis",
+	"tigger"
+	))
+
+
